@@ -1,0 +1,83 @@
+.AboutContainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(218, 215, 215);
+    padding-bottom: 20px;
+  }
+  
+  .LeftContainer {
+    text-align: left;
+    height: 80vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    animation: slideInFromLeft 4s ease-in-out;
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .RightContainer {
+    background-color: rgb(217, 216, 214);
+    height: 80vh;
+    width: 80vh;
+    border-radius: 50%;
+    margin-top: 10px;
+    animation: slideInFromRight 1s ease-in-out;
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .Heading {
+    color: rgb(70, 69, 69);
+    font-size: 5.5rem;
+    font-weight: 600;
+    text-align: left;
+  }
+  .SubHeading{
+    font-size: 1.7rem;
+    font-weight: 300;
+
+  }
+  .Data{
+    padding-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 100;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .AboutContainer {
+      display: flex;
+      flex-direction: column;
+    }
+    .LeftContainer {
+      width: 100%;
+    }
+    .RightContainer {
+      width: 100%;
+    }
+  }
+  

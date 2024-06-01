@@ -1,0 +1,14 @@
+.Footer{
+    width:100%;
+    height:fit-content;
+    margin: 0 !important;
+    background-color: grey;
+}
+.FooterContainer{
+    width: 70%;
+    background-color: rgb(240, 50, 50);
+
+}
+.FooterLink{
+    color: rgb(52, 46, 46) !important;
+}
