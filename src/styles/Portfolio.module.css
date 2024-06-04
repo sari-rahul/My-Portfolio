@@ -1,0 +1,66 @@
+.PortfolioContainer{
+    width: 100%;
+    height:80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.LeftContainer{
+    width:50%;
+    animation: slideInFromLeft 1s ease-in-out;
+}
+.RightContainer{
+    width:50%;
+    animation: slideInFromRight 1s ease-in-out;
+}
+.BigHeading{
+    color: rgb(70, 69, 69);
+    font-size: 5.7rem;
+    font-weight: 700;
+    letter-spacing: -6px;
+    text-align: left;
+}
+.Title{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: rgb(90, 90, 90);
+}
+.Details{
+    padding-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+.ProjectContainer{
+    width:100%;
+    height: 100vh;
+    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
+    border-top: 1px solid rgb(218, 215, 215);
+    border-bottom: 1px solid rgb(218, 215, 215);
+    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
+    background-color: rgb(246, 244, 244);
+}
+
+@keyframes slideInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+@keyframes slideInFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

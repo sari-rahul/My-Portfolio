@@ -30,6 +30,11 @@ const NavBar = () => {
               </Link>
             </Nav.Item>
             <Nav.Item>
+              <Link to="/resume" className={`${styles.NavLink} ${location.pathname === '/resume' ? styles.Active : ''}`}>
+                resume
+              </Link>
+            </Nav.Item>
+            <Nav.Item>
               <Link to="/contact" className={`${styles.NavLink} ${location.pathname === '/contact' ? styles.Active : ''}`}>
                 contact
               </Link>
