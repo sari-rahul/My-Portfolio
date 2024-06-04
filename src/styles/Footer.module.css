@@ -1,14 +1,20 @@
 .Footer{
-    width:100%;
+    width:100% !important;
     height:fit-content;
-    margin: 0 !important;
-    background-color: grey;
+    padding: 0px !important;
+    margin: 0px !important;
 }
 .FooterContainer{
     width: 70%;
-    background-color: rgb(240, 50, 50);
-
+    padding: 15px;
 }
 .FooterLink{
-    color: rgb(52, 46, 46) !important;
+    color: rgb(166, 165, 165) !important;
+}
+.Copyright{
+    color: rgb(137, 136, 136) !important;
+    font-size: 25px !important;
+}
+.Copyright i{
+    font-size: 25px !important;
 }
