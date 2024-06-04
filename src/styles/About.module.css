@@ -1,25 +1,83 @@
-.AboutContainer {
+.AboutContainer{
     width: 100%;
-    height: fit-content;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding-bottom: 20px;
-  }
-  
-  .LeftContainer {
-    text-align: left;
-    height: 80vh;
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
+}
+
+.LeftContainer{
+    width:50%;
     animation: slideInFromLeft 4s ease-in-out;
-  }
-  
-  @keyframes slideInFromLeft {
+}
+.LeftContainer img {
+    width:80%;
+    height:80%;
+    opacity:0.8;
+}
+.RightContainer{
+    width:50%;
+    animation: slideInFromRight 1s ease-in-out;
+}
+.RightContainer img {
+    margin-top:10vh ;
+    height:80vh;
+}
+
+.BigHeading {
+    color: rgb(70, 69, 69);
+    font-size: 5.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+.Title{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: rgb(90, 90, 90);
+}
+.Details{
+    padding-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.GreyBackground{
+    width:100%;
+    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
+    border-top: 1px solid rgb(218, 215, 215);
+    border-bottom: 1px solid rgb(218, 215, 215);
+    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
+    background-color: rgb(237, 234, 234);
+}
+.Heading{
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(90, 90, 90);
+    padding:1rem;
+}
+.ReadmeButton{
+    border: none;
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(126, 126, 126);
+    background-color: inherit;
+}
+.ReadmeButton:hover{
+    cursor: pointer;
+}
+.Height{
+    height:80vh;
+}
+.PaddingLeft{
+    padding-left: 4%;
+}
+.Border{
+    border:10px solid white;
+    border-radius: 10px; 
+}
+
+@keyframes slideInFromLeft {
     from {
       opacity: 0;
       transform: translateX(-100%);
@@ -29,17 +87,8 @@
       transform: translateX(0);
     }
   }
-  
-  .RightContainer {
-    background-color: rgb(217, 216, 214);
-    height: 80vh;
-    width: 80vh;
-    border-radius: 50%;
-    margin-top: 10px;
-    animation: slideInFromRight 1s ease-in-out;
-  }
-  
-  @keyframes slideInFromRight {
+
+@keyframes slideInFromRight {
     from {
       opacity: 0;
       transform: translateX(100%);
@@ -49,145 +98,32 @@
       transform: translateX(0);
     }
   }
-  
-  .Heading {
-    color: rgb(70, 69, 69);
-    font-size: 5.5rem;
-    font-weight: 600;
-    text-align: left;
-  }
-  .SubHeading{
-    font-size: 1.7rem;
-    font-weight: 400;
-    color: rgb(90, 90, 90);
 
-  }
-  .Data{
-    padding-top: 20px;
-    font-size: 1.3rem;
-    font-weight: 100;
-  }
-  .GreyBackground{
-    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
-    border-top: 1px solid rgb(218, 215, 215);
-    border-bottom: 1px solid rgb(218, 215, 215);
-    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
-    background-color: rgb(237, 234, 234);
-  }
-  .RandomHeading{
-    font-size: 3rem;
-    font-weight: 300;
-    color: rgb(90, 90, 90);
-    padding:1rem;
-  }
-  .RandomRight{
-    text-align: left;
-    padding: 1rem;
-    width: 50vw;
-    height: 80vh;
-    animation: slideInFromRight 1s ease-in-out;
-  }
-  .RandomLeft{
-    height: 80vh;
-    margin-top: 10px;
-    width:50%;
-    animation: slideInFromLeft 4sec ease-in-out;
-
-  }
-  .SkillContainer{
-    width:100vw;
-    height:90vh;
-    padding-top: 3rem;
-  }
-  .SkillContainer h1{
-    text-align: right;
-    font-size: 3rem;
-    font-weight: 300;
-    color: rgb(90, 90, 90);
-    padding:1rem;
-  }
-  .MystoryLeft{
-    height: 80vh;
-    width:50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin:auto;
-  }
-  .MystoryRight{
-    height:80vh;
-    width:50%;
-    text-align: center;
-  }
-  .SmallContainer{
-    width:50%;
-  }
-  .InnerContainer{
-    width:90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin:auto;
-  }
-  .ReadmeButton{
-    border: none;
-    font-size: 20px;
-    color: rgb(90, 90, 90);
-    background-color: rgb(237, 234, 234);
-    text-decoration: underline;
-  }
-  .ReadmeButton:hover{
-    cursor: pointer;
-  }
-  
-  @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .AboutContainer {
-      display: flex;
-      flex-direction: column;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 20px;
     }
+
     .LeftContainer {
-      width: 100%;
+        width: 80%;
+        padding-top: 5%;
     }
     .RightContainer {
-      width: 100%;
+        width: 80%;
     }
-    .RandomLeft{
-      width:90vw;
-    }
-    .RandomRight{
-      width:90vw;
-      text-align: center;
 
+    .RightContainer img {
+        width:100%;  
     }
-    .SmallContainer{
-      width:100%;
-      text-align: left;
+}
+@media screen and (max-width: 700px) {
+    .LeftContainer img {
+        width:90%;
+        height:100%;
+        opacity:0.8;
     }
-    .InnerContainer{
-      display: flex;
-      flex-direction: column;
-    }
-    .MystoryLeft{
-      width: 100%;
-    }
-    .MystoryRight{
-      width: 100%;
-    }
-  }
-  
-  @media screen and (max-width: 700px) {
-    .MystoryLeft{
-      height: 80vh;
-      width:80%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .MystoryRight{
-      height:80vh;
-      width:80%;
-      text-align: center;
-    }
-  }
+}
