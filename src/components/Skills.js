@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Cell, ResponsiveContainer,LabelList
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Cell, ResponsiveContainer,
 } from 'recharts';
 import styles from '../styles/Skills.module.css';
 
@@ -44,7 +44,6 @@ const SkillsChart = () => {
           {data.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={entry.color} />
           ))}
-          <LabelList dataKey="name" position="insideBottom"  />
         </Bar>
       </BarChart>
     </ResponsiveContainer>
