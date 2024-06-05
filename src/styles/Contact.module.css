@@ -37,3 +37,25 @@
     height:50%;
     width:20%;
 }
+.EmailContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 50vh;
+}
+.GreyBackground{
+    width:100%;
+    height: fit-content;
+    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
+    border-top: 1px solid rgb(218, 215, 215);
+    border-bottom: 1px solid rgb(218, 215, 215);
+    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
+    background-color: rgb(246, 244, 244);
+}
+.Border{
+    border: 1px solid black;
+}
+.ShorterDiv{
+    width:80%;
+}
