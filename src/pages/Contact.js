@@ -25,34 +25,38 @@ const Contact = () => {
         </div>
         </div>
       <div className={styles.RightContainer}>
-        <img src={ContactImage} alt="Contact Image" />
+        <img src={ContactImage} alt="Contact" />
       </div>
     </Container>
     <div className={`${styles.GreyBackground} p-5`}>
       <Container>
       <h1 className={`${styles.Title} text-start`}>Send me an Email</h1>
       <Form className={`${styles.EmailContainer}`}>
-        <div className={`${styles.LeftContainer}`}>
-          <div className={styles.ShorterDiv}>
-          <Form.Group className='mb-3' controlId="Form.ControlInput">
-            <Form.Label>Email </Form.Label>
-            <Form.Control type="email" className={`${styles.Border} w`} />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="Form.ControlInput">
-            <Form.Label>Name </Form.Label>
-            <Form.Control type="text" className={`${styles.Border}`}/>
-          </Form.Group>
-          </div>
-        </div>
-        <div className={styles.RightContainer}>
-          <div className={styles.ShorterDiv}>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-              <Form.Label> textarea</Form.Label>
-              <Form.Control as="textarea" rows={5} className={`${styles.Border}`} />
+        <div className={styles.EmailInnerContainer}>
+          <div className={`${styles.LeftContainer}`}>
+            <div className={styles.ShorterDiv}>
+            <Form.Group className='mb-3' controlId="Form.ControlInput">
+              <Form.Label>Email </Form.Label>
+              <Form.Control type="email" className={`${styles.Border} p-3`} />
             </Form.Group>
-            <button>Send Email</button>
+            <Form.Group className="mb-3" controlId="Form.ControlInput">
+              <Form.Label>Name </Form.Label>
+              <Form.Control type="text" className={`${styles.Border}  p-3`}/>
+            </Form.Group>
+            </div>
+          </div>
+          <div className={styles.RightContainer}>
+            <div className={styles.ShorterDiv}>
+              <Form.Group className="mb-3" controlId="Form.ControlTextarea">
+                <Form.Label>Message</Form.Label>
+                <Form.Control as="textarea" rows={5} className={`${styles.Border} p-4`} />
+              </Form.Group>
+          </div>
+          </div> 
+        </div> 
+        <div className={styles.ButtonDiv}>
+          <button className={styles.EmailButton}>Send Email</button>
         </div>
-        </div>  
       </Form>
       </Container>
     </div>
