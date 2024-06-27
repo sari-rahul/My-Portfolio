@@ -1,37 +1,40 @@
 .PortfolioContainer{
     width: 100%;
-    height:80vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
 }
+.PortfolioImage img {
+  margin-top:10vh ;
+  width: 100%;
+  height:100%;
+}
+.LogoContainer{
+  width:100%;
+  height:20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
-.LeftContainer{
-    width:50%;
-    animation: slideInFromLeft 1s ease-in-out;
+  
 }
-.RightContainer{
-    width:50%;
-    animation: slideInFromRight 1s ease-in-out;
+.LogoContainer img{
+  width:8%;
+  object-fit: cover;
+  animation-name: spinImage;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  transform-origin: center; /* Rotate around the center */
 }
-.BigHeading{
-    color: rgb(70, 69, 69);
-    font-size: 6.7rem;
-    font-weight: 700;
-    letter-spacing: -6px;
-    text-align: left;
-}
-.Title{
-    font-size: 1.7rem;
-    font-weight: 400;
-    color: rgb(90, 90, 90);
-}
-.Details{
-    padding-top: 20px;
-    font-size: 1.3rem;
-    font-weight: 100;
+@keyframes spinImage {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 .ProjectContainer{
     width:100%;
@@ -41,26 +44,11 @@
     border-bottom: 1px solid rgb(218, 215, 215);
     box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
     background-color: rgb(246, 244, 244);
+    
 }
-
-@keyframes slideInFromLeft {
-    from {
-      opacity: 0;
-      transform: translateX(-100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
+@media screen and (max-width: 1000px) {
+  .PortfolioContainer{
+      display: flex;
+      flex-direction: column;
   }
-
-@keyframes slideInFromRight {
-    from {
-      opacity: 0;
-      transform: translateX(100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
   }

@@ -1,21 +1,22 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import styles from '../styles/About.module.css';
+import generalStyles from '../styles/General.module.css';
 import SkillsChart from '../components/Skills';
 import DeskImage  from '../assets/desktopimage.jpg';
 import FactsImage from '../assets/momAndChildGarndening.jpg';
 import PortfolioImage from '../assets/github-image.png';
 
-const Aboutnew = () => {
+const About = () => {
   return (
     <>
     <Container className={styles.AboutContainer}>
-        <div className={`${styles.LeftContainer} text-start }`}>
-            <div className={styles.BigHeading}>about.</div>
-            <div className={styles.Title}>
+        <div className={`${generalStyles.LeftContainer} text-start }`}>
+            <div className={generalStyles.BigHeading}>about.</div>
+            <div className={generalStyles.Title}>
                 I’m a web developer based in vibrant Stuttgart, Germany.
             </div>
-            <div className={styles.Details}>
+            <div className={generalStyles.Details}>
             Since 2019, I've been dedicated to transforming complex 
             challenges into elegant, efficient, and user-friendly web 
             solutions. When I'm not immersed in code, you can find me 
@@ -23,23 +24,24 @@ const Aboutnew = () => {
             or enjoying outdoors.
             </div>
         </div>
-        <div className={styles.RightContainer}>
+        <div className={generalStyles.RightContainer}>
             <img src={PortfolioImage} alt="portfolio" />
         </div>
     </Container>
-    <div className={`${styles.GreyBackground}  p-5`}>
+    <div className={`${generalStyles.GreyBackground}  p-5`}>
         <Container>
-        <h1 className= {`${styles.Heading} text-end`}>My Skills</h1>
+        <h1 className= {`${generalStyles.Heading} text-end`}>My Skills</h1>
         <SkillsChart/>
         </Container>
     </div>
     <Container className={styles.AboutContainer}>
-        <div className={styles.LeftContainer}>
+        <div className={generalStyles.LeftContainer}>
             <img src={FactsImage} alt="Mom and son in garden" />
         </div>
-        <div className={`${styles.RightContainer} ${styles.Height} ${styles.PaddingLeft} pt-5  text-start`}>
-            <div className={styles.Heading}>Random Facts</div>
-            <div className={`${styles.Details}`}>
+        <div className={`${generalStyles.RightContainer} ${generalStyles.Height} 
+                ${styles.PaddingLeft} pt-5  text-start`}>
+            <div className={generalStyles.Heading}>Random Facts</div>
+            <div className={`${generalStyles.Details}`}>
                 <ul>I am a Coffee Person.</ul>
                 <ul>I am into designing and sketching.</ul>
                 <ul>I love cooking and trying new recipes.</ul>
@@ -50,11 +52,11 @@ const Aboutnew = () => {
             </div>
         </div>
     </Container>
-    <div className={styles.GreyBackground}>
+    <div className={generalStyles.GreyBackground}>
         <Container className={styles.AboutContainer}>
-            <div className={`${styles.LeftContainer} text-start }`}>
-                <div className={`${styles.Heading} p-0`}>My Story</div>
-                <div className={`${styles.Details}`}>
+            <div className={`${generalStyles.LeftContainer} text-start }`}>
+                <div className={`${generalStyles.Heading} p-0`}>My Story</div>
+                <div className={`${generalStyles.Details}`}>
                     Learn a little bit more about me, how I got into developing , and how 
                     I built my career as a Web Developer. I’ve included key things 
                     I've learned, book recommendations, and even some sneak peeks of the 
@@ -64,7 +66,7 @@ const Aboutnew = () => {
                 <button className={`${styles.ReadmeButton} text-start`}>Read my story</button>
 
             </div>
-            <div className={`${styles.RightContainer} ${styles.Height} `}>
+            <div className={`${generalStyles.RightContainer} ${generalStyles.Height} `}>
                 <img src={DeskImage} alt="workstation" className={`${styles.Border} w-75 h-75`} />
             </div>
         </Container>
@@ -74,4 +76,4 @@ const Aboutnew = () => {
   )
 }
 
-export default Aboutnew
+export default About

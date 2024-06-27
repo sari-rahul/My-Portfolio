@@ -35,20 +35,20 @@ const Contact = () => {
         <div className={styles.EmailInnerContainer}>
           <div className={`${styles.LeftContainer}`}>
             <div className={styles.ShorterDiv}>
-            <Form.Group className='mb-3' controlId="Form.ControlInput">
-              <Form.Label>Email </Form.Label>
+            <Form.Group className={`${styles.Label} mb-3`} controlId="Form.ControlInput">
+              <Form.Label className='text-left'>Email </Form.Label>
               <Form.Control type="email" className={`${styles.Border} p-3`} />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="Form.ControlInput">
-              <Form.Label>Name </Form.Label>
+            <Form.Group className={`${styles.Label} mb-3`} controlId="Form.ControlInput">
+              <Form.Label className='text-left'>Name </Form.Label>
               <Form.Control type="text" className={`${styles.Border}  p-3`}/>
             </Form.Group>
             </div>
           </div>
           <div className={styles.RightContainer}>
             <div className={styles.ShorterDiv}>
-              <Form.Group className="mb-3" controlId="Form.ControlTextarea">
-                <Form.Label>Message</Form.Label>
+              <Form.Group className={`${styles.Label} mb-3`} controlId="Form.ControlTextarea">
+                <Form.Label className='text-left'>Message</Form.Label>
                 <Form.Control as="textarea" rows={5} className={`${styles.Border} p-4`} />
               </Form.Group>
           </div>

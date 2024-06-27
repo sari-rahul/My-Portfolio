@@ -1,0 +1,104 @@
+.LeftContainer{
+    width:50%;
+    animation: slideInFromLeft 4s ease-in-out;
+}
+.LeftContainer img {
+    width:80%;
+    height:80%;
+    opacity:0.8;
+}
+.RightContainer{
+    width:50%;
+    animation: slideInFromRight 1s ease-in-out;
+}
+.RightContainer img {
+    margin-top:10vh ;
+    height:80vh;
+}
+.GreyBackground{
+    width:100%;
+    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
+    border-top: 1px solid rgb(218, 215, 215);
+    border-bottom: 1px solid rgb(218, 215, 215);
+    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
+    background-color: rgb(246, 244, 244);
+}
+.BigHeading {
+    color: rgb(70, 69, 69);
+    font-size: 6.7rem;
+    font-weight: 700;
+    letter-spacing: -6px;
+    text-align: left;
+}
+.Title{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: rgb(91, 91, 91);
+}
+.Details{
+    padding-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.Heading{
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(90, 90, 90);
+    padding:1rem;
+}
+.Height{
+    height:80vh;
+}
+@keyframes slideInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+@keyframes slideInFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+@media screen and (max-width: 1000px) {
+    .LeftContainer {
+        width: 80%;
+        padding-top: 5%;
+    }
+    .RightContainer {
+        width: 80%;
+    }
+
+    .RightContainer img {
+        width:100%;  
+    }
+}
+@media screen and (max-width: 700px) {
+    .LeftContainer img {
+        width:90%;
+        height:100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .RightContainer {
+        width: 100%;
+    }
+
+    .BigHeading {
+        font-size: 4rem;
+        letter-spacing: -3px;
+    }
+}
