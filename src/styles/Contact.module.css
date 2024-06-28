@@ -5,28 +5,7 @@
     align-items: center;
     padding-bottom: 20px;
 }
-.LeftContainer{
-    width:50%;
-}
-.RightContainer{
-    width:50%;
-}
-.RightContainer img {
-    margin-top:10vh ;
-    height:80vh;
-}
-.BigHeading{
-    color: rgb(70, 69, 69);
-    font-size: 6.7rem;
-    font-weight: 700;
-    letter-spacing: -6px;
-    text-align: left;
-}
-.Title{
-    font-size: 2.7rem;
-    font-weight: 400;
-    color: rgb(91, 91, 91);
-}
+
 .LogoContainer{
     display: flex;
     flex-direction: row;
@@ -42,22 +21,13 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    height: 50vh;
 }
 .EmailInnerContainer{
     display: flex;
     flex-direction: row;
     width:100%;
 }
-.GreyBackground{
-    width:100%;
-    height: fit-content;
-    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
-    border-top: 1px solid rgb(218, 215, 215);
-    border-bottom: 1px solid rgb(218, 215, 215);
-    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
-    background-color: rgb(246, 244, 244);
-}
+
 .Border{
     border: 1px solid rgb(104, 104, 104);
 
@@ -81,4 +51,31 @@
 .Label{
     text-align: left;
     font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .ContactContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .EmailInnerContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .ShorterDiv{
+        width:100%;
+    }
+    .ButtonDiv{
+        width: 100%;
+    }
+    }
+@media screen and (max-width: 500px) {
+    .ButtonDiv{
+        display: flex;
+        justify-content: center;
+
+    }
+    .EmailButton{
+        padding:10px 20px;
+    }
 }

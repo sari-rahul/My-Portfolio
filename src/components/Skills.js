@@ -9,9 +9,13 @@ const data = [
   { name: 'CSS', level: 90, color: '#F6CA94' },
   { name: 'Javascript', level: 70, color: '#FAFABE' },
   { name: 'ReactJS', level: 70, color: '#C1EBC0' },
-  { name: 'Python', level: 60, color: '#C7CAFF' },
-  { name: 'Django', level: 60, color: '#CDABEB' },
-  { name: 'MongoDB', level: 60, color: '#F6C2F3' },
+  { name: 'Python', level: 60, color: '#DBCDF0' },
+  { name: 'Django', level: 60, color: '#A0C4FF' },
+  { name: 'MongoDB', level: 60, color: '#BDB2FF' },
+  { name: 'WordPress', level: 40, color: '#FFB3C6' },
+  { name: 'Drupal', level: 40, color: '#84DCC6' },
+  { name: 'NodeJs', level: 30, color: '#F6C2F3' },
+  { name: 'PHP', level: 30, color: '#FFAC81' },
 ];
 
 const levelLabels = [

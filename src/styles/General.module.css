@@ -75,11 +75,11 @@
 
 @media screen and (max-width: 1000px) {
     .LeftContainer {
-        width: 80%;
+        width: 100%;
         padding-top: 5%;
     }
     .RightContainer {
-        width: 80%;
+        width: 100%;
     }
 
     .RightContainer img {

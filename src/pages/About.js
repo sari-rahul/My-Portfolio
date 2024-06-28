@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import styles from '../styles/About.module.css';
 import generalStyles from '../styles/General.module.css';
 import SkillsChart from '../components/Skills';
@@ -8,6 +9,12 @@ import FactsImage from '../assets/momAndChildGarndening.jpg';
 import PortfolioImage from '../assets/github-image.png';
 
 const About = () => {
+
+    const navigate = useNavigate();
+    const handleButtonClick = () =>{
+        navigate('/mystory');
+    };
+
   return (
     <>
     <Container className={styles.AboutContainer}>
@@ -63,7 +70,7 @@ const About = () => {
                     first websites I created.
                 </div>
                 <br />
-                <button className={`${styles.ReadmeButton} text-start`}>Read my story</button>
+                <button className={`${styles.ReadmeButton} text-start`} onClick={handleButtonClick}>Read my story</button>
 
             </div>
             <div className={`${generalStyles.RightContainer} ${generalStyles.Height} `}>
