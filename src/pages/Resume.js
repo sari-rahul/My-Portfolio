@@ -8,7 +8,7 @@ import generalStyles from'../styles/General.module.css';
 const Resume = () => {
   return (
     <>
-    <Container className={styles.ResumeContainer}> 
+    <Container className={`${styles.ResumeContainer} ${generalStyles.GreyBackground}`}> 
       <div className={`${styles.OutterContainer}`}>
         <div className={`${generalStyles.LeftContainer} ${generalStyles.Details}`}>
           You can see my resume here. It provides a 
@@ -18,7 +18,8 @@ const Resume = () => {
           and career achievements.
         </div>
         <div className={`${generalStyles.RightContainer} ${styles.DisplayCenter}`}>
-          <i className="fa-regular fa-file"></i>
+          <button className={styles.ResumeButton}>
+            <i className="fa-solid fa-download"></i> Resume </button>
         </div>  
       </div>
       <div className={`${styles.OutterContainer}`}>        
@@ -32,7 +33,8 @@ const Resume = () => {
           professional development journey.
         </div>
         <div className={`${generalStyles.RightContainer}  ${styles.DisplayCenter}`}>
-          <i className="fa-solid fa-stamp"></i>
+          <button className={styles.ResumeButton}>
+            <i className="fa-solid fa-download"></i> Certificates </button>
         </div>
          
       </div>
@@ -46,7 +48,8 @@ const Resume = () => {
           understanding of my career progression and accomplishments.
         </div>
         <div className={`${generalStyles.RightContainer}  ${styles.DisplayCenter}`}>
-          <i className="fa-solid fa-briefcase"></i>
+          <button className={styles.ResumeButton}>
+            <i className="fa-solid fa-download"></i>  Experiences </button>
         </div>        
       </div>
     </Container>

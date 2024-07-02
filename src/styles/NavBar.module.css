@@ -30,9 +30,7 @@
 .Active{
     opacity: 0.5;
 }
-.NavContainer{
-    width:70%;
-}
+
 .ToggleButton button{
     color: white !important;
 }

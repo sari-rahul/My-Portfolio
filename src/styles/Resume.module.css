@@ -5,6 +5,7 @@
 
     width:80%;
     margin: auto;
+    margin-top: 2%;
 }
 
 .OutterContainer{
@@ -21,11 +22,16 @@
     margin:0px;
 }
 .OutterContainer i{
-    font-size: 9rem !important;
+    font-size: 1rem !important;
 }
-.OutterContainer i:hover{
-    cursor: pointer;
-    color:#E88D67
+.ResumeButton{
+    width: 60%;
+    padding: 3%;
+    font-size: 20px;
+    background: grey;
+    border: none;
+    color: white;
+    border-radius: 5px;
 }
 .DisplayCenter{
     display: flex;
@@ -38,9 +44,7 @@
         width:90%;
 
     }
-    .OutterContainer i{
-        font-size: 9rem !important;
-    }
+    
 }
 @media screen and (max-width: 700px){
     .ResumeContainer{
@@ -54,8 +58,5 @@
         justify-content: space-evenly;
         padding: 8% 0% 5% 0%;
     }
-    .OutterContainer i{
-        font-size: 4rem !important;
-        padding: 3%;
-    }
+    
 }
