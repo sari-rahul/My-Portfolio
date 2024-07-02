@@ -2,7 +2,7 @@ import React from 'react';
 import generalStyles from '../styles/General.module.css';
 import styles from '../styles/MyStory.module.css';
 import codelove from '../assets/love-to-code.jpg';
-import educationalbg from '../assets/educational-bcground.jpg';
+import educationalbg from '../assets/graduationcap.webp';
 import adventures from '../assets/adventures.avif';
 import earlycareer from '../assets/early-career.jpg';
 import maternity from '../assets/maternity.jpg';

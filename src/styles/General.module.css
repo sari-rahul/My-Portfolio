@@ -95,6 +95,9 @@
         padding-top: 0px;
         font-size: 1.1rem;
     }
+    .Heading{
+        font-size: 2.3rem;
+    }
 }
 @media screen and (max-width: 500px) {
     .RightContainer {
