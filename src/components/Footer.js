@@ -23,11 +23,6 @@ const Footer = () => {
               </Link>
             </Nav.Item>
             <Nav.Item>
-              <Link to="/resume" className={`${styles.FooterLink} ${location.pathname === '/resume' ? styles.Active : ''}`}>
-              resume
-              </Link>
-            </Nav.Item>
-            <Nav.Item>
               <Link to="/contact" className={`${styles.FooterLink} ${location.pathname === '/contact' ? styles.Active : ''}`}>
                 contact
               </Link>

@@ -25,10 +25,29 @@
     border:10px solid white;
     border-radius: 10px; 
 }
+.ResumeButton{
+    padding: .8rem 3.5rem;
+    background-color: #525151;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    margin-top:5%;
+}
+.ResumeButton :hover{
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 1000px) {
 .AboutContainer{
     display: flex;
     flex-direction: column;
+}
+}
+@media screen and (max-width: 700px) {
+.ResumeButton{
+    padding: .5rem 2.5rem;
+
 }
 }
