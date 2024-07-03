@@ -13,28 +13,91 @@
 }
 .LogoContainer{
   width:100%;
-  height:20%;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  
+  justify-content: left;
+  position: relative;
+  background-color: white;
 }
-.LogoContainer img{
+.TechLogo{
   width:8%;
-  object-fit: cover;
-  animation-name: spinImage;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  transform-origin: center; /* Rotate around the center */
+  object-fit: contain;
 }
-@keyframes spinImage {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
+.CenterCard{
+  width:50%;
+  background-color: blue;
+  margin: auto;
 }
+
+.HtmlLogo{
+  margin-left: 15% !important;
+  margin-top: 10%;
+  position: absolute;
+}
+.CssLogo{
+  margin-left: 30% !important;
+  margin-top: 30%;
+  position: absolute;
+
+}
+.JsLogo{
+  margin-left: 43% !important;
+  margin-top: 20%;
+  position: absolute;
+
+}
+.PythonLogo{
+  margin-left: 60% !important;
+  margin-top: 60%;
+  position: absolute;
+
+}
+.DjangoLogo{
+  margin-left: 75% !important;
+  margin-top: 20%;
+  position: absolute;
+
+}
+.ReactLogo{
+  margin-left: 3% !important;
+  margin-top: 60%;
+  position: absolute;
+}
+.WordpressLogo{
+  margin-left: 30% !important;
+  margin-top: 50%;
+  position: absolute;
+}
+.DrupalLogo{
+  margin-left: 55% !important;
+  margin-top: 40%;
+  position: absolute;
+}
+.BootstrapLogo{
+  margin-left: 55% !important;
+  margin-top: 40%;
+  position: absolute;
+}
+.GitLogo{
+  margin-left: 80% !important;
+  margin-top: 40%;
+  position: absolute;
+}
+.HerokuLogo{
+  margin-left: 90% !important;
+  margin-top: 4%;
+  position: absolute;
+}
+.PostgresLogo{
+  margin-left: 80% !important;
+  margin-top: 70%;
+  position: absolute;
+}
+.ReactBootstrapLogo{
+  margin-left: 40% !important;
+  margin-top: 70%;
+  position: absolute;
+}
+
 .ProjectContainer{
     width:100%;
     height: 100vh;
@@ -51,3 +114,12 @@
       flex-direction: column;
   }
   }
+@media screen and (max-width: 700px) {
+  .LogoContainer{
+    
+  }
+  .LogoContainer img{
+    width:10%;
+  }
+
+}
