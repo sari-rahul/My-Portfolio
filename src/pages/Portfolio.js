@@ -19,10 +19,49 @@ import WordPresslogo from '../assets/wordpress-logo.png';
 import Drupallogo from '../assets/drupal-logo.png';
 
 const Portfolio = () => {
+  const logos = [
+    { src: Htmllogo, alt: 'HTML', style: styles.HtmlLogo },
+    { src: Csslogo, alt: 'CSS', style: styles.CssLogo },
+    { src: Jslogo, alt: 'JavaScript', style: styles.JsLogo },
+    { src: Pythonlogo, alt: 'Python', style: styles.PythonLogo },
+    { src: Djangologo, alt: 'Django', style: styles.DjangoLogo },
+    { src: Reactlogo, alt: 'React', style: styles.ReactLogo },
+    { src: Bootstraplogo, alt: 'Bootstrap', style: styles.BootstrapLogo },
+    { src: GitLogo, alt: 'Git', style: styles.GitLogo },
+    { src: HerokuLogo, alt: 'Heroku', style: styles.HerokuLogo },
+    { src: PostgresLogo, alt: 'Postgres', style: styles.PostgresLogo },
+    { src: ReactBootstrapLogo, alt: 'React Bootstrap', style: styles.ReactBootstrapLogo },
+    { src: WordPresslogo, alt: 'WordPress', style: styles.WordPressLogo },
+    { src: Drupallogo, alt: 'Drupal', style: styles.DrupaLogo }
+  ];
+
+  const duplicatedLogos = Array(15).fill(logos).flat();
+
   return (
     <div className={styles.ProjectContainer}>
       <Parallax pages={5}>
-        <ParallaxLayer offset={0} speed={0.5}>
+        {duplicatedLogos.map((logo, index) => (
+          <ParallaxLayer
+            key={index}
+            offset={Math.random() * 5}
+            speed={Math.random() * 2}
+            style={{ zIndex: 1 }}
+          >
+            <Image
+              src={logo.src}
+              alt={logo.alt}
+              className={`${styles.TechLogo} ${logo.style}`}
+              style={{
+                position: 'absolute',
+                top: `${Math.random() * 100}%`,
+                left: `${Math.random() * 100}%`,
+                animation: `move ${Math.random() * 10 + 5}s linear infinite`
+              }}
+            />
+          </ParallaxLayer>
+        ))}
+
+        <ParallaxLayer offset={0} speed={0.5} style={{ zIndex: 2 }}>
           <div className={styles.CenterCard}>
             <div className={generalStyles.BigHeading}>portfolio.</div>
             <div className={generalStyles.Title}>
@@ -37,48 +76,8 @@ const Portfolio = () => {
             </div>
           </div>
         </ParallaxLayer>
-        
-        <ParallaxLayer offset={0.2} speed={0.5}>
-          <Image src={Htmllogo} alt="HTML" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={0.4} speed={0.7}>
-          <Image src={Csslogo} alt="CSS" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={0.6} speed={0.9}>
-          <Image src={Jslogo} alt="JavaScript" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={0.8} speed={1.1}>
-          <Image src={Pythonlogo} alt="Python" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={1.3}>
-          <Image src={Djangologo} alt="Django" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={1.2} speed={1.5}>
-          <Image src={Reactlogo} alt="React" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={1.4} speed={1.7}>
-          <Image src={Bootstraplogo} alt="Bootstrap" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={1.6} speed={1.9}>
-          <Image src={GitLogo} alt="Git" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={1.8} speed={2.1}>
-          <Image src={HerokuLogo} alt="Heroku" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={2.3}>
-          <Image src={PostgresLogo} alt="Postgres" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={2.2} speed={2.5}>
-          <Image src={ReactBootstrapLogo} alt="React Bootstrap" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={2.4} speed={2.7}>
-          <Image src={WordPresslogo} alt="WordPress" className={styles.TechLogo} />
-        </ParallaxLayer>
-        <ParallaxLayer offset={2.6} speed={2.9}>
-          <Image src={Drupallogo} alt="Drupal" className={styles.TechLogo} />
-        </ParallaxLayer>
 
-        <ParallaxLayer offset={3} speed={0.5}>
+        <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }}>
           <div className={styles.Project}>
             <h2>Project 1 Title</h2>
             <p>Project 1 Description</p>
@@ -86,7 +85,7 @@ const Portfolio = () => {
           </div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3.5} speed={0.7}>
+        <ParallaxLayer offset={2} speed={0.7} style={{ zIndex: 2 }}>
           <div className={styles.Project}>
             <h2>Project 2 Title</h2>
             <p>Project 2 Description</p>
@@ -94,7 +93,7 @@ const Portfolio = () => {
           </div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={4} speed={0.9}>
+        <ParallaxLayer offset={3} speed={0.9} style={{ zIndex: 2 }}>
           <div className={styles.Project}>
             <h2>Project 3 Title</h2>
             <p>Project 3 Description</p>
