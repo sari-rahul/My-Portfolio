@@ -16,6 +16,7 @@
   width:100%;
   display: flex;
   justify-content: left;
+  flex-wrap: wrap;
 }
 
 .TextLeft{
@@ -63,7 +64,7 @@
 .CandClaptop {
   width: 70vh;
   position: absolute;
-  margin-top: 22%;
+  margin-top: -50%;
   margin-left: 17%;
 }
 
@@ -71,19 +72,19 @@
   height: 63vh !important;
   position: absolute;
   margin-left: 3%;
-  margin-top: 42%;
+  margin-top: -50%;
 }
 .CandCmobile {
   height: 43vh;
   margin-left: 39%;
-  margin-top: 65%;
+  margin-top: -47%;
   position: absolute;
 
 }
 .CandCtab {
   height: 75vh;
   margin-left: -7%;
-  margin-top: 60%;
+  margin-top: -68%;
   position: absolute;
 }
 .ssp_laptop{
