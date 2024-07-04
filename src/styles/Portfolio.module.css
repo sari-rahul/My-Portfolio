@@ -11,27 +11,15 @@
   width: 100%;
   height:100%;
 }
+
 .LogoContainer{
   width:100%;
   display: flex;
   justify-content: left;
-  background-color: rgb(219, 120, 120);
 }
-.TechLogo{
-  width:4%;
-  object-fit: contain;
-  position: absolute;
-}
-@keyframes move {
-  0% {
-    transform: translateY(0) translateX(0);
-  }
-  50% {
-    transform: translateY(100px) translateX(100px);
-  }
-  100% {
-    transform: translateY(0) translateX(0);
-  }
+
+.TextLeft{
+  text-align: left;
 }
 
 .CenterCard{
@@ -41,63 +29,6 @@
   text-align: left;
   opacity: 0.9;
 }
-
-/*.HtmlLogo{
-  margin-left: -44% !important;
-  margin-top: -3%;
-}
-.CssLogo{
-  margin-left: 1% !important;
-  margin-top: -5%;
-
-}
-.JsLogo{
-  margin-left: -27% !important;
-  margin-top: -15%;
-
-}
-.PythonLogo{
-  margin-left: -13% !important;
-  margin-top: -11%;
-
-}
-.DjangoLogo{
-  margin-left: 22% !important;
-  margin-top: -95%;
-
-}
-.ReactLogo{
-  margin-left: -41% !important;
-  margin-top: -93%;
-}
-.WordpressLogo{
-  margin-left: 30% !important;
-  margin-top: 50%;
-}
-.DrupalLogo{
-  margin-left: 55% !important;
-  margin-top: 40%;
-}
-.BootstrapLogo{
-  margin-left: 55% !important;
-  margin-top: 40%;
-}
-.GitLogo{
-  margin-left: 80% !important;
-  margin-top: 40%;
-}
-.HerokuLogo{
-  margin-left: 90% !important;
-  margin-top: 4%;
-}
-.PostgresLogo{
-  margin-left: 80% !important;
-  margin-top: 70%;
-}
-.ReactBootstrapLogo{
-  margin-left: 40% !important;
-  margin-top: 70%;
-}*/
 
 .ProjectContainer{
     height: 80vh;
@@ -113,7 +44,6 @@
     
 }
 .Project{
-  background-color: rgb(155, 155, 242);
   display: flex;
   flex-direction: row;
   width:100%;
@@ -123,12 +53,47 @@
   margin: 20px;
 }
 .ProjectImage{
-  width: 100%;
-}
-.ImageContainer{
-  width: 50%;
+  position: absolute;
   height: auto;
+}
+.ProjectDetails{
+  font-size: 1.4rem;
+}
+
+.CandClaptop {
+  width: 80vh;
+  position: absolute;
+  margin-top: -17%;
+  margin-left: -6%;
+}
+
+.CandClargescreen {
+    height: 62vh !important;
+    position: relative;
+    margin-left: -4%;
+    margin-top: 17%;
+}
+.CandCmobile {
+    height: 40vh;
+    margin-left: 18%;
+    margin-top: 45%
+}
+.CandCtab {
+  height: 80vh;
+  margin-left: -42%;
+  margin-top: 30%;
+}
+  
+
+.ImageContainer{
+  width:100%;
+  height: 100%;
   position: relative;
+  opacity: .7;
+}
+
+.PortfolioLeftContainer{
+  width:50%;
 }
 @media screen and (max-width: 1000px) {
   .PortfolioContainer{
