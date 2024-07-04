@@ -3,7 +3,7 @@
     color: rgb(242, 237, 237);
     width: 100%;
     height: fit-content;
-    padding: 1rem;
+    padding: .7rem;
     font-weight: 300;
     font-size: 1.2rem;
     animation: slideDown 2s ease-in-out;

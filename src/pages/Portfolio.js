@@ -19,13 +19,17 @@ import CandClaptop from '../assets/cakes&cokkies-laptop.png';
 import CandClargescreen from '../assets/cakes&cokkies-largescreen.png';
 import CandCmobile from '../assets/cakes&cokkies-mobile.png';
 import CandCtab from '../assets/cakes&cokkies-tab.png';
+import ssp_largescreen from '../assets/ssp-largescreen.png';
+import ssp_laptop from '../assets/ssp-laptop.png';
+import ssp_tab from '../assets/ssp-tab.png';
+import ssp_mobile from '../assets/ssp-mobile.png';
 import StackLogo from '../components/StackLogo';
 
 const Portfolio = () => {
   return (
     <>
       <div className={styles.ProjectContainer}>
-        <Parallax pages={4.5}>
+        <Parallax pages={10}>
           <ParallaxLayer offset={0} speed={0.5} style={{ zIndex: 2 }}>
             <div className={styles.CenterCard}>
               <div className={generalStyles.BigHeading}>portfolio.</div>
@@ -41,74 +45,79 @@ const Portfolio = () => {
               </div>
             </div>
           </ParallaxLayer>
-
+          
+          {/** Project 1 */}
+          <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }} sticky={{ start: 1, end: 2 }}>
+            <div className={styles.PortfolioLeftContainer}>
+              <p className={generalStyles.Heading}>Cakes&Cookies</p>
+              <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
+                A Website built for an imaginary bakery business. I mainly 
+                concentrated on the responsiveness and aesthetics. It is fully 
+                responsive on different screen sizes.
+              </p>
+              <div className={styles.LogoContainer}>
+                <StackLogo logo={Htmllogo} framework="HTML"/>
+                <StackLogo logo={Csslogo} framework="CSS"/>
+                <StackLogo logo={GitLogo} framework="Git"/>
+              </div>
+            </div>
+          </ParallaxLayer>
+          
           <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }}>
-            <div className={styles.Project}>
-              <div className={styles.PortfolioLeftContainer}>
-                <p className={generalStyles.Heading}>Cakes&Cookies</p>
-                <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
-                  A Website built for and imaginary bakery bussiness. I mainly 
-                  concentrates on the responsiveness and aesthetics.It is fully 
-                  responsive on different screen sizes.
-                </p>
-                <div className={styles.LogoContainer}>
-                  <StackLogo logo={Htmllogo} framework="HTML"/>
-                  <StackLogo logo={Csslogo} framework="CSS"/>
-                  <StackLogo logo={GitLogo} framework="Git"/>
-                </div>
+            <div className={`${styles.ImageContainer}`}>
+              <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }}>
+                <Image src={CandClaptop} alt="Project 1 Image 1" className={`${styles.ProjectImage} ${styles.CandClaptop}`} />
+              </ParallaxLayer>
+              <ParallaxLayer offset={1.1} speed={1} style={{ zIndex: 3 }}>
+                <Image src={CandClargescreen} alt="Project 1 Image 2" className={`${styles.ProjectImage} ${styles.CandClargescreen}`} />
+              </ParallaxLayer>
+              <ParallaxLayer offset={1.2} speed={1.5} style={{ zIndex: 4 }}>
+                <Image src={CandCmobile} alt="Project 1 Image 3" className={`${styles.ProjectImage} ${styles.CandCmobile}`} />
+              </ParallaxLayer>
+              <ParallaxLayer offset={1.3} speed={2} style={{ zIndex: 1 }}>
+                <Image src={CandCtab} alt="Project 1 Image 4" className={`${styles.ProjectImage} ${styles.CandCtab}`} />
+              </ParallaxLayer>
+            </div>
+          </ParallaxLayer>
+          
+          {/** Project 2 */}
+          <ParallaxLayer offset={3} speed={0.5} style={{ zIndex: 2 }} sticky={{ start: 3, end: 4 }}>
+            <div className={styles.PortfolioLeftContainer}>
+              <p className={generalStyles.Heading}>Student Study Portal</p>
+              <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
+                A website built for students, where they can create and store notes,
+                refer different websites, and also ask questions and discuss subjects in the forum.
+              </p>
+              <div className={styles.LogoContainer}>
+                <StackLogo logo={Htmllogo} framework="HTML"/>
+                <StackLogo logo={Csslogo} framework="CSS"/>
+                <StackLogo logo={Pythonlogo} framework="Python"/>
+                <StackLogo logo={Bootstraplogo} framework="Bootstrap"/>
+                <StackLogo logo={Djangologo} framework="Django"/>
+                <StackLogo logo={PostgresLogo} framework="PostgresSQL"/>
+                <StackLogo logo={HerokuLogo} framework="Heroku"/>
+                <StackLogo logo={GitLogo} framework="Git"/>
               </div>
-              <div className={`${styles.ImageContainer} `}>
-                <ParallaxLayer offset={0.1} speed={0.5} style={{ zIndex: 2}}>
-                  <Image src={CandClaptop} alt="Project 1 Image 1" className={`${styles.ProjectImage} ${styles.CandClaptop}`} />
-                </ParallaxLayer>
-                <ParallaxLayer offset={0.3} speed={1} style={{ zIndex: 3 }}>
-                  <Image src={CandClargescreen} alt="Project 1 Image 2" className={`${styles.ProjectImage} ${styles.CandClargescreen}`} />
-                </ParallaxLayer>
-                <ParallaxLayer offset={0.5} speed={1.5} style={{ zIndex: 4 }}>
-                  <Image src={CandCmobile} alt="Project 1 Image 3" className={`${styles.ProjectImage} ${styles.CandCmobile}`} />
-                </ParallaxLayer>
-                <ParallaxLayer offset={0.7} speed={2} style={{ zIndex: 1 }}>
-                  <Image src={CandCtab} alt="Project 1 Image 4" className={`${styles.ProjectImage} ${styles.CandCtab}`} />
-                </ParallaxLayer>
-              </div>
+            </div>
+          </ParallaxLayer>
+          
+          <ParallaxLayer offset={3} speed={0.5} style={{ zIndex: 2 }}>
+            <div className={`${styles.ImageContainer}`}>
+              <ParallaxLayer offset={3} speed={0.5} style={{ zIndex: 2 }}>
+                <Image src={ssp_laptop} alt="Project 2 Image 1" className={`${styles.ProjectImage} ${styles.ssp_laptop}`} />
+              </ParallaxLayer>
+              <ParallaxLayer offset={3.1} speed={1} style={{ zIndex: 3 }}>
+                <Image src={ssp_largescreen} alt="Project 2 Image 2" className={`${styles.ProjectImage} ${styles.ssp_largescreen}`} />
+              </ParallaxLayer>
+              <ParallaxLayer offset={3.2} speed={1.5} style={{ zIndex: 4 }}>
+                <Image src={ssp_mobile} alt="Project 2 Image 3" className={`${styles.ProjectImage} ${styles.ssp_mobile}`} />
+              </ParallaxLayer>
+              <ParallaxLayer offset={3.3} speed={2} style={{ zIndex: 1 }}>
+                <Image src={ssp_tab} alt="Project 2 Image 4" className={`${styles.ProjectImage} ${styles.ssp_tab}`} />
+              </ParallaxLayer>
             </div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={2} speed={0.7} style={{ zIndex: 2 }}>
-            <div className={styles.Project}>
-              <h2>Project 2 Title</h2>
-              <p>Project 2 Description</p>
-              <div className={styles.ImageContainer}>
-                <ParallaxLayer offset={0.1} speed={0.5} style={{ zIndex: 2 }}>
-                  <Image src={PortfolioImage} alt="Project 2 Image 1" className={styles.ProjectImage} />
-                </ParallaxLayer>
-                <ParallaxLayer offset={0.3} speed={0.7} style={{ zIndex: 2 }}>
-                  <Image src={PortfolioImage} alt="Project 2 Image 2" className={styles.ProjectImage} />
-                </ParallaxLayer>
-                <ParallaxLayer offset={0.5} speed={0.9} style={{ zIndex: 2 }}>
-                  <Image src={PortfolioImage} alt="Project 2 Image 3" className={styles.ProjectImage} />
-                </ParallaxLayer>
-              </div>
-            </div>
-          </ParallaxLayer>
-
-          <ParallaxLayer offset={3} speed={0.9} style={{ zIndex: 2 }}>
-            <div className={styles.Project}>
-              <h2>Project 3 Title</h2>
-              <p>Project 3 Description</p>
-              <div className={styles.ImageContainer}>
-                <ParallaxLayer offset={0.1} speed={0.5} style={{ zIndex: 2 }}>
-                  <Image src={PortfolioImage} alt="Project 3 Image 1" className={styles.ProjectImage} />
-                </ParallaxLayer>
-                <ParallaxLayer offset={0.3} speed={0.7} style={{ zIndex: 2 }}>
-                  <Image src={PortfolioImage} alt="Project 3 Image 2" className={styles.ProjectImage} />
-                </ParallaxLayer>
-                <ParallaxLayer offset={0.5} speed={0.9} style={{ zIndex: 2 }}>
-                  <Image src={PortfolioImage} alt="Project 3 Image 3" className={styles.ProjectImage} />
-                </ParallaxLayer>
-              </div>
-            </div>
-          </ParallaxLayer>
         </Parallax>
       </div>
     </>

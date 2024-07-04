@@ -61,39 +61,65 @@
 }
 
 .CandClaptop {
-  width: 80vh;
+  width: 70vh;
   position: absolute;
-  margin-top: -17%;
-  margin-left: -6%;
+  margin-top: 22%;
+  margin-left: 17%;
 }
 
 .CandClargescreen {
-    height: 62vh !important;
-    position: relative;
-    margin-left: -4%;
-    margin-top: 17%;
+  height: 63vh !important;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 42%;
 }
 .CandCmobile {
-    height: 40vh;
-    margin-left: 18%;
-    margin-top: 45%
+  height: 43vh;
+  margin-left: 39%;
+  margin-top: 65%;
+  position: absolute;
+
 }
 .CandCtab {
-  height: 80vh;
-  margin-left: -42%;
-  margin-top: 30%;
+  height: 75vh;
+  margin-left: -7%;
+  margin-top: 60%;
+  position: absolute;
 }
-  
-
+.ssp_laptop{
+  height: 40vh;
+  margin-top: -120%;
+  position: absolute;
+  margin-left: 18%;
+}
+.ssp_largescreen{
+  height: 63vh;
+  position: absolute;
+  margin-top: -120%;
+  margin-left: 4%;
+}
+.ssp_mobile{
+  height: 43vh;
+  margin-top: -117%;
+  position: absolute;
+  margin-left: 38%;
+}
+.ssp_tab{
+  height: 78vh;
+  margin-top: -138%;
+  position: absolute;
+  margin-left: -8%;
+}
 .ImageContainer{
   width:100%;
   height: 100%;
   position: relative;
-  opacity: .7;
+  opacity: .8;
 }
 
 .PortfolioLeftContainer{
-  width:50%;
+  width:30%;
+  margin-left: 5%;
 }
 @media screen and (max-width: 1000px) {
   .PortfolioContainer{
