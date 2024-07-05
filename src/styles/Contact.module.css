@@ -12,9 +12,10 @@
     align-items: center;
     justify-content: flex-start;
 }
-.LogoContainer img{
+.LogoContainer a{
     height:50%;
     width:20%;
+    margin-left: 0px;
 }
 .EmailContainer{
     display: flex;

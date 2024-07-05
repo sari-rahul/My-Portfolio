@@ -36,10 +36,10 @@ const NavBar = () => {
             </Nav.Item>
             </div>
             <div className={styles.NavLinks}>
-              <Nav.Link href="#">
+              <Nav.Link href="https://github.com/sari-rahul" target='_blank'>
               <i className="fa-brands fa-github"></i>
               </Nav.Link>
-              <Nav.Link href="#">
+              <Nav.Link href="https://www.linkedin.com/in/sarimol-adampurath-90b320224/" target='_blank'>
                 <i className="fa-brands fa-linkedin"></i>
               </Nav.Link>
             </div>
