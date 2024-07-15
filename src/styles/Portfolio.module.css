@@ -30,6 +30,11 @@
   text-align: left;
   opacity: 0.9;
 }
+.Heading{
+  text-align: left;
+  font-size: 2.5rem;
+  color: rgb(90, 90, 90);
+}
 
 .ProjectContainer{
     height: 80vh;
@@ -61,27 +66,27 @@
   font-size: 1.4rem;
 }
 
-.CandClaptop {
+.bblaptop {
   width: 70vh;
   position: absolute;
   margin-top: -50%;
   margin-left: 17%;
 }
 
-.CandClargescreen {
+.bblargescreen {
   height: 63vh !important;
   position: absolute;
   margin-left: 3%;
   margin-top: -50%;
 }
-.CandCmobile {
+.bbmobile {
   height: 43vh;
   margin-left: 39%;
   margin-top: -47%;
   position: absolute;
 
 }
-.CandCtab {
+.bbtab {
   height: 75vh;
   margin-left: -7%;
   margin-top: -68%;
@@ -111,38 +116,61 @@
   position: absolute;
   margin-left: -8%;
 }
-.Pands_Laptop{
+.pands_Laptop{
   margin-left: 13%;
   margin-top: -197%;
   position: absolute;
   height: 42vh;
 
 }
-.Pands_Largescreen{
+.pands_Largescreen{
   position: absolute;
   margin-top: -195%;
   height: 62vh;
   margin-left:5%;
 
 }
-.Pands_Mobile{
+.pands_Mobile{
   position: absolute;
   margin-top: -193%;
   height: 47vh;
   margin-left: 38%;
 }
-.Pands_Tab{
+.pands_Tab{
   position: absolute;
   margin-top: -211%;
   height: 73vh;
   margin-left: -8%;
 
 }
+.candc_Laptop{
+  position: absolute;
+  height: 43vh;
+  margin-left: 15%;
+  margin-top: -161%;
+}
+.candc_Largescreen{
+  position: absolute;
+  margin-top: -270%;
+  height: 66vh;
+}
+.candc_Mobile{
+  position: absolute;
+  height: 47vh;
+  margin-top: -266%;
+  margin-left: 35%;
+}
+.candc_Tab{
+  position: absolute;
+  height: 76vh;
+  margin-left: -10%;
+  margin-top: -285%;
+}
 .ImageContainer{
   width:100%;
   height: 100%;
   position: relative;
-  opacity: .8;
+  opacity: .9;
 }
 
 .PortfolioLeftContainer{
