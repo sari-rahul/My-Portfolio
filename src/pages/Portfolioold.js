@@ -62,37 +62,37 @@ const Portfolio = () => {
           </ParallaxLayer>
           
           {/** Project 1 */}
-        <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 1 }} sticky={{ start: 1, end: 2 }}>
-        <div className={styles.PortfolioLeftContainer}>
-            <p className={styles.Heading}>Bite-Buzz</p>
-            <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
-            Bite-Buzz is a frontend application developed using ReactJS, a popular JavaScript library 
-            for building user interfaces. Version control for the project is managed with Git.
-            </p>
-            <div className={styles.LogoContainer}>
-            <StackLogo logo={Reactlogo} framework="ReactJS"/>
-            <StackLogo logo={GitLogo} framework="Git"/>
-            <StackLogo logo={NetlifyLogo} framework="Netlify"/>
+          <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }} sticky={{ start: 1, end: 2 }}>
+            <div className={styles.PortfolioLeftContainer}>
+              <p className={styles.Heading}>Bite-Buzz</p>
+              <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
+              Bite-Buzz is a frontend application developed using ReactJS, a popular JavaScript library 
+              for building user interfaces. Version control for the project is managed with Git.
+              </p>
+              <div className={styles.LogoContainer}>
+                <StackLogo logo={Reactlogo} framework="ReactJS"/>
+                <StackLogo logo={GitLogo} framework="Git"/>
+                <StackLogo logo={NetlifyLogo} framework="Netlify"/>
+              </div>
             </div>
-        </div>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }}>
-        <div className={`${styles.ImageContainer}`}>
-            <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }}>
-            <Image src={bb_laptop} alt="Project 1 Image 1" className={`${styles.ProjectImage} ${styles.bblaptop}`} />
-            </ParallaxLayer>
-            <ParallaxLayer offset={1.05} speed={1} style={{ zIndex: 3 }}>
-            <Image src={bb_largescreen} alt="Project 1 Image 2" className={`${styles.ProjectImage} ${styles.bblargescreen}`} />
-            </ParallaxLayer>
-            <ParallaxLayer offset={1.1} speed={1.5} style={{ zIndex: 4 }}>
-            <Image src={bb_mobile} alt="Project 1 Image 3" className={`${styles.ProjectImage} ${styles.bbmobile}`} />
-            </ParallaxLayer>
-            <ParallaxLayer offset={1.15} speed={2} style={{ zIndex: 1 }}>
-            <Image src={bb_tab} alt="Project 1 Image 4" className={`${styles.ProjectImage} ${styles.bbtab}`} />
-            </ParallaxLayer>
-        </div>
-        </ParallaxLayer>
+          </ParallaxLayer>
+          
+          <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }}>
+            <div className={`${styles.ImageContainer}`}>
+              <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }}>
+                <Image src={bb_laptop} alt="Project 1 Image 1" className={`${styles.ProjectImage} ${styles.bblaptop}`} />
+              </ParallaxLayer>
+              <ParallaxLayer offset={1.05} speed={1} style={{ zIndex: 3 }}>
+                <Image src={bb_largescreen} alt="Project 1 Image 2" className={`${styles.ProjectImage} ${styles.bblargescreen}`} />
+              </ParallaxLayer>
+              <ParallaxLayer offset={1.1} speed={1.5} style={{ zIndex: 4 }}>
+                <Image src={bb_mobile} alt="Project 1 Image 3" className={`${styles.ProjectImage} ${styles.bbmobile}`} />
+              </ParallaxLayer>
+              <ParallaxLayer offset={1.15} speed={2} style={{ zIndex: 1 }}>
+                <Image src={bb_tab} alt="Project 1 Image 4" className={`${styles.ProjectImage} ${styles.bbtab}`} />
+              </ParallaxLayer>
+            </div>
+          </ParallaxLayer>
           
           {/** Project 2 */}
           <ParallaxLayer offset={3} speed={0.5} style={{ zIndex: 2 }} sticky={{ start: 3, end: 4 }}>
@@ -116,7 +116,7 @@ const Portfolio = () => {
             </div>
           </ParallaxLayer>
           
-          <ParallaxLayer offset={3} speed={0.5} style={{ zIndex: 1 }}>
+          <ParallaxLayer offset={3} speed={0.5} style={{ zIndex: 2 }}>
             <div className={`${styles.ImageContainer}`}>
               <ParallaxLayer offset={3} speed={0.5} style={{ zIndex: 2 }}>
                 <Image src={ssp_laptop} alt="Project 2 Image 1" className={`${styles.ProjectImage} ${styles.ssp_laptop}`} />
@@ -156,7 +156,7 @@ const Portfolio = () => {
             </div>
           </ParallaxLayer>
           
-          <ParallaxLayer offset={5} speed={0.5} style={{ zIndex: 1 }}>
+          <ParallaxLayer offset={5} speed={0.5} style={{ zIndex: 2 }}>
             <div className={`${styles.ImageContainer}`}>
               <ParallaxLayer offset={5} speed={0.5} style={{ zIndex: 2 }}>
                 <Image  src={pands_laptop} alt="Project 3 Image 1" className={`${styles.ProjectImage} ${styles.pands_Laptop}`} />
@@ -190,7 +190,7 @@ const Portfolio = () => {
             </div>
           </ParallaxLayer>
           
-          <ParallaxLayer offset={7} speed={0.5} style={{ zIndex: 1 }}>
+          <ParallaxLayer offset={7} speed={0.5} style={{ zIndex: 2 }}>
             <div className={`${styles.ImageContainer}`}>
               <ParallaxLayer offset={5} speed={0.5} style={{ zIndex: 2 }}>
                 <Image  src={CandC_laptop} alt="Project 3 Image 1" className={`${styles.ProjectImage} ${styles.candc_Laptop}`} />

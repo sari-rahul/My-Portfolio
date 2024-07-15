@@ -58,6 +58,7 @@
   justify-content: space-between;
   margin: 20px;
 }
+
 .ProjectImage{
   position: absolute;
   height: auto;
@@ -167,7 +168,7 @@
   margin-top: -285%;
 }
 .ImageContainer{
-  width:100%;
+  width:97%;
   height: 100%;
   position: relative;
   opacity: .9;
@@ -177,18 +178,85 @@
   width:30%;
   margin-left: 5%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1250px) {
   .PortfolioContainer{
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
+  .PortfolioLeftContainer{
+    width:50%;
+    margin-left: 15%;
   }
-@media screen and (max-width: 700px) {
-  .LogoContainer{
+  .bbtab {
+    height: 86vh;
+    margin-left: -30%;
+  }
+  .bbmobile {
+    margin-left:19% ;
+    height: 50vh;
     
   }
-  .LogoContainer img{
-    width:10%;
-  }
+  .bblargescreen {
+    margin-left:-18% ;
 
+  }
+  .bblaptop {
+    margin-left:8% ;
+    height: 39vh;
+  }
+  .ImageContainer{
+    width:97%;
+    margin: auto;
+  }
+  .PortfolioLeftContainer{
+    width:70%;
+    margin: auto;
+    background-color: rgb(246, 244, 244);
+    opacity: 0.9;
+  }
+}  
+@media screen and (max-width: 1000px) {
+  .ImageContainer{
+    width:90%;
+  }
+  .bblaptop {
+    width: 62vh;
+    margin-top: -54%;
+  }
+  .bbmobile {
+    height: 43vh;
+    margin-top: -42%;
+  }
+  .bblargescreen {
+    height: 58vh !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ImageContainer{
+    width:80%;
+  }
+  .bbmobile{
+    display: none;
+  }
+  .bblargescreen{
+    display: none;
+  }
+  .bblaptop {
+    width: 60vh;
+    position: absolute;
+    margin-top: -85%;
+    margin-left: -8%;
+  }
+  .bbtab {
+    height: 70vh;
+    margin-left: -34%;
+    margin-top: -129%;
+    position: absolute;
+  }
+  .PortfolioLeftContainer{
+    width:70%;
+    margin: auto;
+    background-color: rgb(246, 244, 244);
+    opacity: 0.9;
+  }
 }
