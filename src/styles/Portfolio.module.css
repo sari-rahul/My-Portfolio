@@ -281,83 +281,6 @@
     margin-top: -350%;
   }
 }  
-@media screen and (max-width: 1100px) {
-  .ImageContainer{
-    width:90%;
-  }
-  .bblaptop {
-    width: 62vh;
-    margin-top: -54%;
-  }
-  .bbmobile {
-    height: 43vh;
-    margin-top: -42%;
-  }
-  .bblargescreen {
-    height: 58vh !important;
-  }
-  .ssp_largescreen{
-    height: 61vh;
-    margin-left: -20%;
-    margin-top: -108%;
-  }
-  .ssp_mobile{
-    height: 58vh;
-    margin-left: 30%;
-    margin-top: -98%;
-  }
-  .ssp_tab{
-    margin-top: -102%;
-    margin-left: -50%;
-    height: 74vh;
-  }
-  .ssp_laptop{
-    height: 39vh;
-    margin-top: -126%;
-    margin-left: 1%;
-  }
-  .pands_Largescreen{
-    height: 64vh;
-    margin-top: -276%;
-    margin-left: -26%;
-  }
-  .pands_Mobile{
-    height: 59vh;
-    margin-top: -275%;
-    margin-left: 26%;
-  }
-  .pands_Laptop{
-    height: 38vh;
-    margin-top: -282%;
-    margin-left: 4%;
-}
-  .pands_Tab{
-    margin-top: -296%;
-    height: 79vh;
-    margin-left: -50%;
-  }
-  .candc_Laptop{
-    height: 43vh;
-    margin-left: -3%;
-    margin-top: -213%;
-  }
-  .candc_Largescreen{
-    margin-top: -367%;
-    height: 67vh;
-    margin-left: -24%;
-  }
-  .candc_Mobile{
-    height: 50vh;
-    margin-top: -360%;
-    margin-left: 29%;
-  }
-  .candc_Tab{
-    height: 78vh;
-    margin-left: -43%;
-    margin-top: -382%;
-  }
-
-}
 @media screen and (max-width: 1000px) {
   .ImageContainer{
     width:80%;
@@ -373,12 +296,12 @@
   }
   .bblaptop {
     height: 23vh;
-    margin-top: -185%;
+    margin-top: -276%;
     margin-left: -13%;
     width: 69%;
   }
   .bbtab {
-    height: 30vh;
+    height: 38vh;
     margin-left: -51%;
     margin-top: -179%;
   }
@@ -389,13 +312,13 @@
     display: none;
   }
   .ssp_tab{
-    margin-top: -387%;
+    margin-top: -411%;
     margin-left: -50%;
-    height: 30vh;
-  }
+    height: 40vh;
+}
   .ssp_laptop{
     height: 23vh;
-    margin-top: -370%;
+    margin-top: -536%;
     margin-left: -21%;
   }
   .pands_Largescreen{
@@ -405,21 +328,16 @@
     display: none;
   }
   .pands_Laptop{
-    height: 27vh;
-    margin-top: -488%;
+    height: 26vh;
+    margin-top: -825%;
     margin-left: -21%;
-}
+  }
   .pands_Tab{
-    margin-top: -542%;
-    height: 38vh;
+    margin-top: -571%;
+    height: 40vh;
     margin-left: -52%;
   }
-  .PortfolioLeftContainer{
-    width:70%;
-    margin: auto;
-    background-color: rgb(246, 244, 244);
-    opacity: 0.9;
-  }
+  
   .candc_Largescreen{
     display: none;
   }
@@ -429,12 +347,19 @@
   .candc_Laptop{
     height: 26vh;
     margin-left: -21%;
-    margin-top: -383%;
+    margin-top: -669%;
   }
   .candc_Tab{
     height: 30vh;
     margin-left: -50%;
-    margin-top: -709%;
+    margin-top: -920%;
+  }
+  .PortfolioLeftContainer{
+    width:70%;
+    margin: auto;
+    background-color: rgb(246, 244, 244);
+    opacity: 0.9;
+    padding: 20px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -491,7 +416,7 @@
   }
   .candc_Mobile{
     height: 60vh;
-    margin-top: -952%;
+    margin-top: -1478%;
     margin-left: 12%;
     display: flex;
   }
@@ -502,4 +427,5 @@
     text-align: center;
     font-size: 2.2rem;
   }
+  
 }
