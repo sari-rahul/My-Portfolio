@@ -179,7 +179,7 @@
   margin-left: 5%;
   box-shadow: 0 0 5px 10px rgb(246, 244, 244);
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   .PortfolioContainer{
     display: flex;
     flex-direction: column;
@@ -187,11 +187,14 @@
   .PortfolioLeftContainer{
     width:50%;
     margin-left: 15%;
+    margin: auto;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(246, 244, 244);
+    opacity: 0.9;
   }
   .TextLeft{
     text-align: center;
@@ -207,8 +210,7 @@
   }
   .bblargescreen {
     margin-left:-25% ;
-    height: 65vh;
-
+    height: 65vh !important;
   }
   .bblaptop {
     margin-left:4% ;
@@ -218,14 +220,68 @@
     width:97%;
     margin: auto;
   }
-  .PortfolioLeftContainer{
-    width:50%;
-    margin: auto;
-    background-color: rgb(246, 244, 244);
-    opacity: 0.9;
+  .ssp_laptop{
+    height: 42vh;
+    margin-top: -144%;
+    margin-left: 3%;
+  }
+  .ssp_largescreen{
+    height: 66vh;
+    margin-top: -137%;
+    margin-left: -21%;
+  }
+  .ssp_mobile{
+    height: 46vh;
+    margin-top: -128%;
+    margin-left: 27%;
+  }
+  .ssp_tab{
+    margin-top: -150%;
+    margin-left: -40%;
+  }
+  .pands_Laptop{
+    margin-left: 0%;
+    margin-top: -231%;
+    height: 44vh;
+  
+  }
+  .pands_Largescreen{
+    margin-top: -222%;
+    height: 63vh;
+    margin-left: -20%;
+  }
+  .pands_Mobile{
+    margin-top: -214%;
+    height: 50vh;
+    margin-left: 22%;
+  }
+  .pands_Tab{
+    margin-top: -231%;
+    height: 77vh;
+    margin-left: -39%;
+  }
+  .candc_Laptop{
+    height: 43vh;
+    margin-left: 8%;
+    margin-top: -194%;
+  }
+  .candc_Largescreen{
+    margin-top: -338%;
+    height: 66vh;
+    margin-left: -21%;
+  }
+  .candc_Mobile{
+    height: 50vh;
+    margin-top: -330%;
+    margin-left: 29%;
+  }
+  .candc_Tab{
+    height: 78vh;
+    margin-left: -43%;
+    margin-top: -350%;
   }
 }  
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .ImageContainer{
     width:90%;
   }
@@ -240,10 +296,74 @@
   .bblargescreen {
     height: 58vh !important;
   }
+  .ssp_largescreen{
+    height: 61vh;
+    margin-left: -20%;
+    margin-top: -108%;
+  }
+  .ssp_mobile{
+    height: 58vh;
+    margin-left: 30%;
+    margin-top: -98%;
+  }
+  .ssp_tab{
+    margin-top: -102%;
+    margin-left: -50%;
+    height: 74vh;
+  }
+  .ssp_laptop{
+    height: 39vh;
+    margin-top: -126%;
+    margin-left: 1%;
+  }
+  .pands_Largescreen{
+    height: 64vh;
+    margin-top: -276%;
+    margin-left: -26%;
+  }
+  .pands_Mobile{
+    height: 59vh;
+    margin-top: -275%;
+    margin-left: 26%;
+  }
+  .pands_Laptop{
+    height: 38vh;
+    margin-top: -282%;
+    margin-left: 4%;
 }
-@media screen and (max-width: 700px) {
+  .pands_Tab{
+    margin-top: -296%;
+    height: 79vh;
+    margin-left: -50%;
+  }
+  .candc_Laptop{
+    height: 43vh;
+    margin-left: -3%;
+    margin-top: -213%;
+  }
+  .candc_Largescreen{
+    margin-top: -367%;
+    height: 67vh;
+    margin-left: -24%;
+  }
+  .candc_Mobile{
+    height: 50vh;
+    margin-top: -360%;
+    margin-left: 29%;
+  }
+  .candc_Tab{
+    height: 78vh;
+    margin-left: -43%;
+    margin-top: -382%;
+  }
+
+}
+@media screen and (max-width: 1000px) {
   .ImageContainer{
     width:80%;
+  }
+  .CenterCard{
+    width:70%;
   }
   .bbmobile{
     display: none;
@@ -252,14 +372,47 @@
     display: none;
   }
   .bblaptop {
-    width: 60vh;
-    margin-top: -85%;
-    margin-left: -15%;
+    height: 23vh;
+    margin-top: -185%;
+    margin-left: -13%;
+    width: 69%;
   }
   .bbtab {
-    height: 70vh;
+    height: 30vh;
     margin-left: -51%;
-    margin-top: -129%;
+    margin-top: -179%;
+  }
+  .ssp_largescreen{
+    display: none;
+  }
+  .ssp_mobile{
+    display: none;
+  }
+  .ssp_tab{
+    margin-top: -387%;
+    margin-left: -50%;
+    height: 30vh;
+  }
+  .ssp_laptop{
+    height: 23vh;
+    margin-top: -370%;
+    margin-left: -21%;
+  }
+  .pands_Largescreen{
+    display: none;
+  }
+  .pands_Mobile{
+    display: none;
+  }
+  .pands_Laptop{
+    height: 27vh;
+    margin-top: -488%;
+    margin-left: -21%;
+}
+  .pands_Tab{
+    margin-top: -542%;
+    height: 38vh;
+    margin-left: -52%;
   }
   .PortfolioLeftContainer{
     width:70%;
@@ -267,17 +420,33 @@
     background-color: rgb(246, 244, 244);
     opacity: 0.9;
   }
+  .candc_Largescreen{
+    display: none;
+  }
+  .candc_Mobile{
+    display: none;
+  }
+  .candc_Laptop{
+    height: 26vh;
+    margin-left: -21%;
+    margin-top: -383%;
+  }
+  .candc_Tab{
+    height: 30vh;
+    margin-left: -50%;
+    margin-top: -709%;
+  }
 }
 @media screen and (max-width: 500px) {
   .PortfolioLeftContainer{
     width:80%;
-    margin-left: 15%;
     margin-top: 30%;
   }
+
   .bbmobile{
     display: flex;
-    height: 92vh;
-    margin-left: 14%
+    height: 60vh;
+    margin-left: 10%
   }
   .bblaptop{
     display: none;
@@ -285,7 +454,52 @@
   .bbtab{
     display: none;
   }
-  .CenterCard{
-    width:70%;
+  .ssp_laptop{
+    display: none;
+  }
+  .ssp_largescreen{
+    display: none;
+  }
+  .ssp_mobile{
+    height: 60vh;
+    margin-left: 12%;
+    display: flex;
+  }
+  .ssp_tab{
+    display: none;
+  }
+  .pands_Laptop{
+    display: none;
+  }
+  .pands_Largescreen{
+    display: none;
+  }
+  .pands_Mobile{
+    height: 60vh;
+    margin-left: 12%;
+    display: flex;
+    margin-top: -422%;
+  }
+  .pands_Tab{
+    display: none;
+  }
+  .candc_Laptop{
+    display: none;
+  }
+  .candc_Largescreen{
+    display: none;
+  }
+  .candc_Mobile{
+    height: 60vh;
+    margin-top: -952%;
+    margin-left: 12%;
+    display: flex;
+  }
+  .candc_Tab{
+    display: none;
+  }
+  .Heading{
+    text-align: center;
+    font-size: 2.2rem;
   }
 }

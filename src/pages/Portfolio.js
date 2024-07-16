@@ -44,7 +44,7 @@ const Portfolio = () => {
   return (
     <>
       <div className={styles.ProjectContainer}>
-        <Parallax pages={8}>
+        <Parallax pages={10}>
           <ParallaxLayer offset={0} speed={0.5} style={{ zIndex: 2 }}>
             <div className={styles.CenterCard}>
               <div className={generalStyles.BigHeading}>portfolio.</div>

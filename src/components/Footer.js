@@ -11,7 +11,7 @@ const Footer = () => {
     <Navbar expand="md" data-bs-theme="light" className={styles.Footer}>
         <Container className={styles.FooterContainer}>
           <div className={styles.Copyright}><i className="fa-regular fa-copyright"></i>Sarimol Adampurath</div>
-          <Nav className="ms-auto">
+          <Nav className={`${styles.FooterInnerContainer} ms-auto`}>
             <Nav.Item>
               <Link to="/about" className={`${styles.FooterLink} ${location.pathname === '/about' ? styles.Active : ''}`}>
                 about
