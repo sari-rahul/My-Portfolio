@@ -281,7 +281,7 @@
     margin-top: -350%;
   }
 }  
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .ImageContainer{
     width:80%;
   }
@@ -289,52 +289,58 @@
     width:70%;
   }
   .bbmobile{
-    display: none;
+    display: flex;
+    margin-left: 60%;
+    margin-top: -129%;
   }
   .bblargescreen{
     display: none;
   }
   .bblaptop {
-    height: 23vh;
-    margin-top: -276%;
+    height: 43vh;
+    margin-top: -156%;
     margin-left: -13%;
     width: 69%;
   }
   .bbtab {
-    height: 38vh;
+    height: 68vh;
     margin-left: -51%;
-    margin-top: -179%;
+    margin-top: -159%;
   }
   .ssp_largescreen{
     display: none;
   }
   .ssp_mobile{
-    display: none;
+    display: flex;
+    margin-top: -201%;
+    margin-left: 80%;
   }
   .ssp_tab{
-    margin-top: -411%;
+    margin-top: -211%;
     margin-left: -50%;
-    height: 40vh;
+    height: 80vh;
 }
   .ssp_laptop{
-    height: 23vh;
-    margin-top: -536%;
+    height: 43vh;
+    margin-top: -336%;
     margin-left: -21%;
   }
   .pands_Largescreen{
     display: none;
   }
   .pands_Mobile{
-    display: none;
+    display: flex;
+    margin-top: -360%;
+    margin-left: 80%;
   }
   .pands_Laptop{
-    height: 26vh;
-    margin-top: -825%;
+    height: 43vh;
+    margin-top: -500%;
     margin-left: -21%;
   }
   .pands_Tab{
-    margin-top: -571%;
-    height: 40vh;
+    margin-top: -371%;
+    height: 70vh;
     margin-left: -52%;
   }
   
@@ -342,17 +348,19 @@
     display: none;
   }
   .candc_Mobile{
-    display: none;
+    display: flex;
+    margin-top: -600%;
+    margin-left: 60%;
   }
   .candc_Laptop{
-    height: 26vh;
+    height: 46vh;
     margin-left: -21%;
-    margin-top: -669%;
+    margin-top: -390%;
   }
   .candc_Tab{
-    height: 30vh;
+    height: 60vh;
     margin-left: -50%;
-    margin-top: -920%;
+    margin-top: -620%;
   }
   .PortfolioLeftContainer{
     width:70%;
