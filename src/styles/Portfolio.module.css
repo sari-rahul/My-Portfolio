@@ -177,6 +177,7 @@
 .PortfolioLeftContainer{
   width:30%;
   margin-left: 5%;
+  box-shadow: 0 0 5px 10px rgb(246, 244, 244);
 }
 @media screen and (max-width: 1250px) {
   .PortfolioContainer{
@@ -186,30 +187,39 @@
   .PortfolioLeftContainer{
     width:50%;
     margin-left: 15%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .TextLeft{
+    text-align: center;
   }
   .bbtab {
     height: 86vh;
-    margin-left: -30%;
+    margin-left: -40%;
   }
   .bbmobile {
-    margin-left:19% ;
+    margin-left:24% ;
     height: 50vh;
     
   }
   .bblargescreen {
-    margin-left:-18% ;
+    margin-left:-25% ;
+    height: 65vh;
 
   }
   .bblaptop {
-    margin-left:8% ;
-    height: 39vh;
+    margin-left:4% ;
+    height: 45vh;
   }
   .ImageContainer{
     width:97%;
     margin: auto;
   }
   .PortfolioLeftContainer{
-    width:70%;
+    width:50%;
     margin: auto;
     background-color: rgb(246, 244, 244);
     opacity: 0.9;
@@ -243,20 +253,39 @@
   }
   .bblaptop {
     width: 60vh;
-    position: absolute;
     margin-top: -85%;
-    margin-left: -8%;
+    margin-left: -15%;
   }
   .bbtab {
     height: 70vh;
-    margin-left: -34%;
+    margin-left: -51%;
     margin-top: -129%;
-    position: absolute;
   }
   .PortfolioLeftContainer{
     width:70%;
     margin: auto;
     background-color: rgb(246, 244, 244);
     opacity: 0.9;
+  }
+}
+@media screen and (max-width: 500px) {
+  .PortfolioLeftContainer{
+    width:80%;
+    margin-left: 15%;
+    margin-top: 30%;
+  }
+  .bbmobile{
+    display: flex;
+    height: 92vh;
+    margin-left: 14%
+  }
+  .bblaptop{
+    display: none;
+  }
+  .bbtab{
+    display: none;
+  }
+  .CenterCard{
+    width:70%;
   }
 }
