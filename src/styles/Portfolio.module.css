@@ -206,28 +206,21 @@
     text-align: center;
   }
   .bb_tab {
-    height: 46vh;
+    height: 86vh;
     margin-left: -40%;
-    margin-top: -175%;
-
   }
   .bb_mobile {
     margin-left:24% ;
-    height: 30vh;
-    margin-top: -157%;
+    height: 50vh;
     
   }
   .bb_largescreen {
     margin-left:-25% ;
-    height: 35vh !important;
-    margin-top: -175%;
+    height: 65vh !important;
   }
   .bb_laptop {
-    margin-left:-10% ;
-    margin-top:-142%;
-    height: 20vh;
-    width:40vh;
-
+    margin-left:4% ;
+    height: 45vh;
   }
   .ImageContainer{
     width:97%;
@@ -337,7 +330,7 @@
   .candc_tab{
     height: 70vh;
     margin-left: -45%;
-    margin-top: -537%;
+    margin-top: -211%;
   }
   .PortfolioLeftContainer{
     width:70%;
