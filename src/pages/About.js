@@ -72,8 +72,7 @@ const About = () => {
                 <div className={`${generalStyles.Details}`}>
                     Learn a little bit more about me, how I got into developing , and how 
                     I built my career as a Web Developer. I’ve included key things 
-                    I've learned, book recommendations, and even some sneak peeks of the 
-                    first websites I created.
+                    I've learned and my whole career story.
                 </div>
                 <br />
                 <button className={`${styles.ReadmeButton} text-start`} onClick={handleButtonClick}>Read my story</button>

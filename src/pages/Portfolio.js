@@ -80,16 +80,16 @@ const Portfolio = () => {
         <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }}>
         <div className={`${styles.ImageContainer}`}>
             <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }}>
-            <Image src={bb_laptop} alt="Project 1 Image 1" className={`${styles.ProjectImage} ${styles.bblaptop}`} />
+            <Image src={bb_laptop} alt="Project 1 Image 1" className={`${styles.ProjectImage} ${styles.bb_laptop}`} />
             </ParallaxLayer>
             <ParallaxLayer offset={1.05} speed={1} style={{ zIndex: 3 }}>
-            <Image src={bb_largescreen} alt="Project 1 Image 2" className={`${styles.ProjectImage} ${styles.bblargescreen}`} />
+            <Image src={bb_largescreen} alt="Project 1 Image 2" className={`${styles.ProjectImage} ${styles.bb_largescreen}`} />
             </ParallaxLayer>
             <ParallaxLayer offset={1.1} speed={1.5} style={{ zIndex: 4 }}>
-            <Image src={bb_mobile} alt="Project 1 Image 3" className={`${styles.ProjectImage} ${styles.bbmobile}`} />
+            <Image src={bb_mobile} alt="Project 1 Image 3" className={`${styles.ProjectImage} ${styles.bb_mobile}`} />
             </ParallaxLayer>
             <ParallaxLayer offset={1.15} speed={2} style={{ zIndex: 1 }}>
-            <Image src={bb_tab} alt="Project 1 Image 4" className={`${styles.ProjectImage} ${styles.bbtab}`} />
+            <Image src={bb_tab} alt="Project 1 Image 4" className={`${styles.ProjectImage} ${styles.bb_tab}`} />
             </ParallaxLayer>
         </div>
         </ParallaxLayer>
@@ -159,16 +159,16 @@ const Portfolio = () => {
           <ParallaxLayer offset={5} speed={0.5} style={{ zIndex: 1 }}>
             <div className={`${styles.ImageContainer}`}>
               <ParallaxLayer offset={5} speed={0.5} style={{ zIndex: 2 }}>
-                <Image  src={pands_laptop} alt="Project 3 Image 1" className={`${styles.ProjectImage} ${styles.pands_Laptop}`} />
+                <Image  src={pands_laptop} alt="Project 3 Image 1" className={`${styles.ProjectImage} ${styles.pands_laptop}`} />
               </ParallaxLayer>
               <ParallaxLayer offset={5.05} speed={1} style={{ zIndex: 3 }}>
-                <Image src={pands_largescreen} alt="Project 3 Image 2" className={`${styles.ProjectImage} ${styles.pands_Largescreen}`} />
+                <Image src={pands_largescreen} alt="Project 3 Image 2" className={`${styles.ProjectImage} ${styles.pands_largescreen}`} />
               </ParallaxLayer>
               <ParallaxLayer offset={5.1} speed={1.5} style={{ zIndex: 4 }}>
-                <Image src={pands_mobile} alt="Project 3 Image 3" className={`${styles.ProjectImage} ${styles.pands_Mobile}`} />
+                <Image src={pands_mobile} alt="Project 3 Image 3" className={`${styles.ProjectImage} ${styles.pands_mobile}`} />
               </ParallaxLayer>
               <ParallaxLayer offset={5.15} speed={2} style={{ zIndex: 1 }}>
-                <Image src={pands_tab} alt="Project 3 Image 4" className={`${styles.ProjectImage} ${styles.pands_Tab}`} />
+                <Image src={pands_tab} alt="Project 3 Image 4" className={`${styles.ProjectImage} ${styles.pands_tab}`} />
               </ParallaxLayer>
             </div>
           </ParallaxLayer>
@@ -193,16 +193,16 @@ const Portfolio = () => {
           <ParallaxLayer offset={7} speed={0.5} style={{ zIndex: 1 }}>
             <div className={`${styles.ImageContainer}`}>
               <ParallaxLayer offset={5} speed={0.5} style={{ zIndex: 2 }}>
-                <Image  src={CandC_laptop} alt="Project 3 Image 1" className={`${styles.ProjectImage} ${styles.candc_Laptop}`} />
+                <Image  src={CandC_laptop} alt="Project 3 Image 1" className={`${styles.ProjectImage} ${styles.candc_laptop}`} />
               </ParallaxLayer>
               <ParallaxLayer offset={7.05} speed={1} style={{ zIndex: 3 }}>
-                <Image src={CandC_largescreen} alt="Project 3 Image 2" className={`${styles.ProjectImage} ${styles.candc_Largescreen}`} />
+                <Image src={CandC_largescreen} alt="Project 3 Image 2" className={`${styles.ProjectImage} ${styles.candc_largescreen}`} />
               </ParallaxLayer>
               <ParallaxLayer offset={7.1} speed={1.5} style={{ zIndex: 4 }}>
-                <Image src={CandC_mobile} alt="Project 3 Image 3" className={`${styles.ProjectImage} ${styles.candc_Mobile}`} />
+                <Image src={CandC_mobile} alt="Project 3 Image 3" className={`${styles.ProjectImage} ${styles.candc_mobile}`} />
               </ParallaxLayer>
               <ParallaxLayer offset={7.15} speed={2} style={{ zIndex: 1 }}>
-                <Image src={CandC_tab} alt="Project 3 Image 4" className={`${styles.ProjectImage} ${styles.candc_Tab}`} />
+                <Image src={CandC_tab} alt="Project 3 Image 4" className={`${styles.ProjectImage} ${styles.candc_tab}`} />
               </ParallaxLayer>
             </div>
           </ParallaxLayer>
