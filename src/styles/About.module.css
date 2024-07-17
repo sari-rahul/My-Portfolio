@@ -6,6 +6,9 @@
     align-items: center;
     padding-bottom: 20px;
 }
+.AboutContainer a{
+    margin-left: 0px !important;
+}
 
 .ReadmeButton{
     border: none;
@@ -34,6 +37,7 @@
     border-radius: 5px;
     margin-top:5%;
 }
+
 .ResumeButton :hover{
     cursor: pointer;
 }

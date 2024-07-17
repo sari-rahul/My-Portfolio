@@ -5,7 +5,9 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
+    overflow-y: hidden;
 }
+
 .PortfolioImage img {
   margin-top:10vh ;
   width: 100%;
@@ -39,7 +41,7 @@
 .ProjectContainer{
     height: 80vh;
     position: relative;
-    overflow: hidden; /* Hide overflow to ensure nothing spills out */
+    overflow: hidden; 
     position: relative;
 
     box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
@@ -49,6 +51,7 @@
     background-color: rgb(246, 244, 244);
     
 }
+
 .Project{
   display: flex;
   flex-direction: row;
@@ -62,6 +65,8 @@
 .ProjectImage{
   position: absolute;
   height: auto;
+  filter:drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.8));
+
 }
 .ProjectDetails{
   font-size: 1.4rem;
@@ -72,6 +77,7 @@
   position: absolute;
   margin-top: -50%;
   margin-left: 17%;
+  filter:drop-shadow(0px 5px 5px rgba(0, 0, 0, .08));
 }
 
 .bblargescreen {
@@ -79,6 +85,7 @@
   position: absolute;
   margin-left: 3%;
   margin-top: -50%;
+
 }
 .bbmobile {
   height: 43vh;

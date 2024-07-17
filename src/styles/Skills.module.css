@@ -3,3 +3,9 @@
     font-weight: 500 !important;
     color: white !important;
 }
+
+@media screen and(max-width:700px) {
+    .Label{
+        display: none;
+    }
+}

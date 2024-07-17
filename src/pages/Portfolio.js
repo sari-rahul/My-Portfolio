@@ -105,12 +105,12 @@ const Portfolio = () => {
               <div className={styles.LogoContainer}>
                 <StackLogo logo={Htmllogo} framework="HTML"/>
                 <StackLogo logo={Csslogo} framework="CSS"/>
+                <StackLogo logo={Djangologo} framework="Django"/>
                 <StackLogo logo={Pythonlogo} framework="Python"/>
                 <StackLogo logo={Bootstraplogo} framework="Bootstrap"/>
-                <StackLogo logo={Djangologo} framework="Django"/>
                 <StackLogo logo={PostgresLogo} framework="PostgresSQL"/>
-                <StackLogo logo={HerokuLogo} framework="Heroku"/>
                 <StackLogo logo={CloudinaryLogo} framework="Cloudinary"/>
+                <StackLogo logo={HerokuLogo} framework="Heroku"/>
                 <StackLogo logo={GitLogo} framework="Git"/>
               </div>
             </div>
@@ -145,12 +145,12 @@ const Portfolio = () => {
               <div className={styles.LogoContainer}>
                 <StackLogo logo={Htmllogo} framework="HTML"/>
                 <StackLogo logo={Csslogo} framework="CSS"/>
-                <StackLogo logo={PostgresLogo} framework="PostgresSQL"/>
                 <StackLogo logo={Reactlogo} framework="React"/>
-                <StackLogo logo={DjangoRest} framework="DjangoRest"/>
                 <StackLogo logo={ReactBootstrapLogo} framework="ReactBootstrap"/>
-                <StackLogo logo={HerokuLogo} framework="Heroku"/>
+                <StackLogo logo={DjangoRest} framework="DjangoRest"/>
+                <StackLogo logo={PostgresLogo} framework="PostgresSQL"/>
                 <StackLogo logo={CloudinaryLogo} framework="Cloudinary"/>
+                <StackLogo logo={HerokuLogo} framework="Heroku"/>
                 <StackLogo logo={GitLogo} framework="Git"/>
               </div>
             </div>
@@ -184,8 +184,8 @@ const Portfolio = () => {
               <div className={styles.LogoContainer}>
                 <StackLogo logo={Htmllogo} framework="HTML"/>
                 <StackLogo logo={Csslogo} framework="CSS"/>
-                <StackLogo logo={GitLogo} framework="Git"/>
                 <StackLogo logo={GitHubLogo} framework="GitHub"/>
+                <StackLogo logo={GitLogo} framework="Git"/>
               </div>
             </div>
           </ParallaxLayer>

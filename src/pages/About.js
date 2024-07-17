@@ -30,8 +30,12 @@ const About = () => {
             experimenting with new recipes in the kitchen, gardening 
             or enjoying outdoors.
             </div>
-
-            <button className={styles.ResumeButton}><i className="fa-solid fa-download"></i> Resume</button>
+            <a href="./resume.pdf" target='_blank'>
+            <button className={styles.ResumeButton}>
+                <i className="fa-solid fa-download"></i> Resume
+            </button>
+            </a>
+            
         </div>
         <div className={generalStyles.RightContainer}>
             <img src={PortfolioImage} alt="portfolio" />

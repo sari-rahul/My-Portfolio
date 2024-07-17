@@ -20,7 +20,6 @@
     box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
     border-top: 1px solid rgb(218, 215, 215);
     border-bottom: 1px solid rgb(218, 215, 215);
-    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
     background-color: rgb(246, 244, 244);
 }
 .BigHeading {
@@ -75,11 +74,11 @@
 
 @media screen and (max-width: 1000px) {
     .LeftContainer {
-        width: 100%;
+        width: 80%;
         padding-top: 5%;
     }
     .RightContainer {
-        width: 100%;
+        width: 80%;
     }
 
     .RightContainer img {

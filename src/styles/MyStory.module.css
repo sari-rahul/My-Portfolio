@@ -4,11 +4,21 @@
     align-items: flex-start;
 
     width:60%;
-    margin: auto;
+    margin: auto;    
+}
+.OuterContainer{
+    box-shadow: 2px 2px 5px 2px rgba(139, 139, 139, 0.3);
 }
 .HeadingContainer{
     padding: 30px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Tagline{
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .Paragraphs{
