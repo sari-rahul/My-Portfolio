@@ -5,7 +5,6 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
-    overflow-y: hidden;
 }
 
 .PortfolioImage img {
@@ -206,22 +205,29 @@
   .TextLeft{
     text-align: center;
   }
-  .bbtab {
-    height: 86vh;
+  .bb_tab {
+    height: 46vh;
     margin-left: -40%;
+    margin-top: -175%;
+
   }
-  .bbmobile {
+  .bb_mobile {
     margin-left:24% ;
-    height: 50vh;
+    height: 30vh;
+    margin-top: -157%;
     
   }
-  .bblargescreen {
+  .bb_largescreen {
     margin-left:-25% ;
-    height: 65vh !important;
+    height: 35vh !important;
+    margin-top: -175%;
   }
-  .bblaptop {
-    margin-left:4% ;
-    height: 45vh;
+  .bb_laptop {
+    margin-left:-10% ;
+    margin-top:-142%;
+    height: 20vh;
+    width:40vh;
+
   }
   .ImageContainer{
     width:97%;
@@ -288,7 +294,7 @@
     margin-top: -350%;
   }
 }  
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .ImageContainer{
     width:80%;
   }
@@ -301,67 +307,37 @@
   .candc_largescreen{
     display: none;
   }
-  .bb_mobile{
-    display: flex;
-    margin-left: 60%;
-    margin-top: -129%;
+  .bb_mobile,
+  .ssp_mobile,
+  .pands_mobile,
+  .candc_mobile{
+    display: none;
   }
-  .bb_laptop {
-    height: 43vh;
-    margin-top: -156%;
-    margin-left: -13%;
-    width: 69%;
+  .bb_laptop, 
+  .ssp_laptop,
+  .pands_laptop,
+  .candc_laptop{
+    display: none;
   } 
   .bb_tab {
-    height: 68vh;
-    margin-left: -51%;
-    margin-top: -159%;
-  }
-  
-  .ssp_mobile{
-    display: flex;
-    margin-top: -187%;
-    margin-left: 60%;
-  }
+    height: 70vh;
+    margin-left:-45%;
+    margin-top: 10px;
+  } 
   .ssp_tab{
     margin-top: -211%;
-    margin-left: -50%;
-    height: 80vh;
-}
-  .ssp_laptop{
-    height: 43vh;
-    margin-top: -336%;
-    margin-left: -21%;
-  }
-  .pands_lobile{
-    display: flex;
-    margin-top: -360%;
-    margin-left: 80%;
-  }
-  .pands_laptop{
-    height: 43vh;
-    margin-top: -500%;
-    margin-left: -21%;
+    margin-left: -45%;
+    height: 70vh;
   }
   .pands_tab{
-    margin-top: -371%;
+    margin-top: -211%;
     height: 70vh;
-    margin-left: -52%;
-  }
-  .candc_mobile{
-    display: flex;
-    margin-top: -600%;
-    margin-left: 60%;
-  }
-  .candc_laptop{
-    height: 46vh;
-    margin-left: -21%;
-    margin-top: -390%;
+    margin-left: -45%;
   }
   .candc_tab{
-    height: 60vh;
-    margin-left: -50%;
-    margin-top: -620%;
+    height: 70vh;
+    margin-left: -45%;
+    margin-top: -537%;
   }
   .PortfolioLeftContainer{
     width:70%;

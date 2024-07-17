@@ -3,6 +3,8 @@
   width:100%;
   box-sizing: border-box;
   overflow-y:  hidden !important;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
