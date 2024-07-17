@@ -17,22 +17,21 @@ export const Contact = () => {
 
   const form = useRef();
 
-{/** Submitting email */}
-  const sendEmail = (e) =>{
-    e.preventDefault();
-    
-    emailjs
-      .sendForm('service_h99tp7z', 'template_q9do1eg', form.current,'OpJYXrgt0vN7X3ifW')
-      .then(
-        (result) => {
-          console.log("Email sent successfully.",result.text);
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .sendForm('service_h99tp7z', 'template_q9do1eg', form.current, 'OpJYXrgt0vN7X3ifW')
+    .then(
+      (result) => {
+        console.log("Email sent successfully.", result.text);
       },
-      (error) =>{
-        console.log("Failed.",error.text);
+      (error) => {
+        console.log("Failed.", error.text);
       }
     );
-    e.target.reset(); 
-  };  
+  e.target.reset(); 
+};
 
   return (
     <>
