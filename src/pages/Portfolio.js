@@ -18,20 +18,20 @@ import CloudinaryLogo from '../assets/cloudinary-logo.png';
 import NetlifyLogo from '../assets/netlify-logo.png';
 import GitHubLogo from '../assets/gtihub-logo.png';
 
-import CandC_laptop from '../assets/cakes&cokkies-laptop.png';
-import CandC_largescreen from '../assets/cakes&cokkies-largescreen.png';
-import CandC_mobile from '../assets/cakes&cokkies-mobile.png';
-import CandC_tab from '../assets/cakes&cokkies-tab.png';
+import CandC_laptop from '../assets/cc-laptop.png';
+import CandC_largescreen from '../assets/cc-largescreen.png';
+import CandC_mobile from '../assets/cc-mobile.png';
+import CandC_tab from '../assets/cc-tab.png';
 
 import ssp_largescreen from '../assets/ssp-largescreen.png';
 import ssp_laptop from '../assets/ssp-laptop.png';
 import ssp_tab from '../assets/ssp-tab.png';
 import ssp_mobile from '../assets/ssp-mobile.png';
 
-import pands_mobile from '../assets/pans-mobile.png';
-import pands_largescreen from '../assets/pands-largescreen.png';
-import pands_laptop from '../assets/pands-laptop.png';
-import pands_tab from '../assets/pands-tab.png';
+import pands_mobile from '../assets/ps-mobile.png';
+import pands_largescreen from '../assets/ps-largescreen.png';
+import pands_laptop from '../assets/ps-laptop.png';
+import pands_tab from '../assets/ps-tab.png';
 
 import bb_laptop from '../assets/bb-laptop.png';
 import bb_largescreen from '../assets/bb-largescreen.png';
