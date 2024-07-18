@@ -63,18 +63,20 @@ const Portfolio = () => {
           
           {/** Project 1 */}
         <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 1 }} sticky={{ start: 1, end: 2 }}>
-        <div className={styles.PortfolioLeftContainer}>
-            <p className={styles.Heading}>Bite-Buzz</p>
-            <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
-            Bite-Buzz is a frontend application developed using ReactJS, a popular JavaScript library 
-            for building user interfaces. Version control for the project is managed with Git.
-            </p>
-            <div className={styles.LogoContainer}>
-            <StackLogo logo={Reactlogo} framework="ReactJS"/>
-            <StackLogo logo={GitLogo} framework="Git"/>
-            <StackLogo logo={NetlifyLogo} framework="Netlify"/>
+          <a href="https://main--bite-buzz.netlify.app/" target='_blank' rel="noreferrer">
+            <div className={styles.PortfolioLeftContainer}>
+              <p className={styles.Heading}>Bite-Buzz</p>
+              <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
+              Bite-Buzz is a frontend application developed using ReactJS, a popular JavaScript library 
+              for building user interfaces. Version control for the project is managed with Git.
+              </p>
+              <div className={styles.LogoContainer}>
+              <StackLogo logo={Reactlogo} framework="ReactJS"/>
+              <StackLogo logo={GitLogo} framework="Git"/>
+              <StackLogo logo={NetlifyLogo} framework="Netlify"/>
+              </div>
             </div>
-        </div>
+          </a>      
         </ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={0.5} style={{ zIndex: 2 }}>
@@ -96,24 +98,26 @@ const Portfolio = () => {
           
           {/** Project 2 */}
           <ParallaxLayer offset={3} speed={0.5} style={{ zIndex: 2 }} sticky={{ start: 3, end: 4 }}>
-            <div className={styles.PortfolioLeftContainer}>
-              <p className={styles.Heading}>Student Study Portal</p>
-              <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
-                A website built for students, where they can create and store notes,
-                refer different websites, and also ask questions and discuss subjects in the forum.
-              </p>
-              <div className={styles.LogoContainer}>
-                <StackLogo logo={Htmllogo} framework="HTML"/>
-                <StackLogo logo={Csslogo} framework="CSS"/>
-                <StackLogo logo={Djangologo} framework="Django"/>
-                <StackLogo logo={Pythonlogo} framework="Python"/>
-                <StackLogo logo={Bootstraplogo} framework="Bootstrap"/>
-                <StackLogo logo={PostgresLogo} framework="PostgresSQL"/>
-                <StackLogo logo={CloudinaryLogo} framework="Cloudinary"/>
-                <StackLogo logo={HerokuLogo} framework="Heroku"/>
-                <StackLogo logo={GitLogo} framework="Git"/>
+            <a href="https://studen-study-portal-1.onrender.com/" target='_blank' rel="noreferrer">
+              <div className={styles.PortfolioLeftContainer}>
+                <p className={styles.Heading}>Student Study Portal</p>
+                <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
+                  A website built for students, where they can create and store notes,
+                  refer different websites, and also ask questions and discuss subjects in the forum.
+                </p>
+                <div className={styles.LogoContainer}>
+                  <StackLogo logo={Htmllogo} framework="HTML"/>
+                  <StackLogo logo={Csslogo} framework="CSS"/>
+                  <StackLogo logo={Djangologo} framework="Django"/>
+                  <StackLogo logo={Pythonlogo} framework="Python"/>
+                  <StackLogo logo={Bootstraplogo} framework="Bootstrap"/>
+                  <StackLogo logo={PostgresLogo} framework="PostgresSQL"/>
+                  <StackLogo logo={CloudinaryLogo} framework="Cloudinary"/>
+                  <StackLogo logo={HerokuLogo} framework="Heroku"/>
+                  <StackLogo logo={GitLogo} framework="Git"/>
+                </div>
               </div>
-            </div>
+            </a>
           </ParallaxLayer>
           
           <ParallaxLayer offset={3} speed={0.5} style={{ zIndex: 1 }}>
@@ -135,25 +139,28 @@ const Portfolio = () => {
 
           {/** Project 3 */}
           <ParallaxLayer offset={5} speed={0.5} style={{ zIndex: 2 }} sticky={{ start: 5, end: 6 }}>
-            <div className={styles.PortfolioLeftContainer}>
-              <p className={styles.Heading}>Paws & Snaps</p>
-              <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
-                A blog Website built using React and Django REST Framework. The users can read,
-                add, delete, and update blogs. They can also comment on blogs which will be 
-                published after admin approval.
-              </p>
-              <div className={styles.LogoContainer}>
-                <StackLogo logo={Htmllogo} framework="HTML"/>
-                <StackLogo logo={Csslogo} framework="CSS"/>
-                <StackLogo logo={Reactlogo} framework="React"/>
-                <StackLogo logo={ReactBootstrapLogo} framework="ReactBootstrap"/>
-                <StackLogo logo={DjangoRest} framework="DjangoRest"/>
-                <StackLogo logo={PostgresLogo} framework="PostgresSQL"/>
-                <StackLogo logo={CloudinaryLogo} framework="Cloudinary"/>
-                <StackLogo logo={HerokuLogo} framework="Heroku"/>
-                <StackLogo logo={GitLogo} framework="Git"/>
+            <a href="https://pawfect-pics-87d81c100ee5.herokuapp.com/" target='_blank' rel="noreferrer">
+              <div className={styles.PortfolioLeftContainer}>
+                <p className={styles.Heading}>Paws & Snaps</p>
+                <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
+                  A blog Website built using React and Django REST Framework. The users can read,
+                  add, delete, and update blogs. They can also comment on blogs which will be 
+                  published after admin approval.
+                </p>
+                <div className={styles.LogoContainer}>
+                  <StackLogo logo={Htmllogo} framework="HTML"/>
+                  <StackLogo logo={Csslogo} framework="CSS"/>
+                  <StackLogo logo={Reactlogo} framework="React"/>
+                  <StackLogo logo={ReactBootstrapLogo} framework="ReactBootstrap"/>
+                  <StackLogo logo={DjangoRest} framework="DjangoRest"/>
+                  <StackLogo logo={PostgresLogo} framework="PostgresSQL"/>
+                  <StackLogo logo={CloudinaryLogo} framework="Cloudinary"/>
+                  <StackLogo logo={HerokuLogo} framework="Heroku"/>
+                  <StackLogo logo={GitLogo} framework="Git"/>
+                </div>
               </div>
-            </div>
+            </a>
+           
           </ParallaxLayer>
           
           <ParallaxLayer offset={5} speed={0.5} style={{ zIndex: 1 }}>
@@ -175,19 +182,21 @@ const Portfolio = () => {
 
           {/** Project 4 */}
           <ParallaxLayer offset={7} speed={0.5} style={{ zIndex: 2 }} sticky={{ start: 7, end: 8}}>
-            <div className={styles.PortfolioLeftContainer}>
-              <p className={styles.Heading}>Cakes&Cookies</p>
-              <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
-                A Website built using HTML and CSS for an imaginery Cake Baker.The version control was done 
-                using Git.It is hosted on GitHub.
-              </p>
-              <div className={styles.LogoContainer}>
-                <StackLogo logo={Htmllogo} framework="HTML"/>
-                <StackLogo logo={Csslogo} framework="CSS"/>
-                <StackLogo logo={GitHubLogo} framework="GitHub"/>
-                <StackLogo logo={GitLogo} framework="Git"/>
+            <a href="https://sari-rahul.github.io/cakes-and-cookies/" target='_blank' rel="noreferrer">
+              <div className={styles.PortfolioLeftContainer}>
+                <p className={styles.Heading}>Cakes&Cookies</p>
+                <p className={`${generalStyles.Details} ${styles.TextLeft}`}>
+                  A Website built using HTML and CSS for an imaginery Cake Baker.The version control was done 
+                  using Git.It is hosted on GitHub.
+                </p>
+                <div className={styles.LogoContainer}>
+                  <StackLogo logo={Htmllogo} framework="HTML"/>
+                  <StackLogo logo={Csslogo} framework="CSS"/>
+                  <StackLogo logo={GitHubLogo} framework="GitHub"/>
+                  <StackLogo logo={GitLogo} framework="Git"/>
+                </div>
               </div>
-            </div>
+            </a> 
           </ParallaxLayer>
           
           <ParallaxLayer offset={7} speed={0.5} style={{ zIndex: 1 }}>
