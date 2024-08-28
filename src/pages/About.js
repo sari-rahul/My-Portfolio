@@ -30,7 +30,7 @@ const About = () => {
             experimenting with new recipes in the kitchen, gardening 
             or enjoying outdoors.
             </div>
-            <a href="./resume.pdf" target='_blank'>
+            <a href="./new-resume.pdf" target='_blank'>
             <button className={styles.ResumeButton}>
                 <i className="fa-solid fa-download"></i> Resume
             </button>
